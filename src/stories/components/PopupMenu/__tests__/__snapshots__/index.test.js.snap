@@ -1,0 +1,95 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PopupMenu /> should render correctly if thin 1`] = `
+<_default
+  thin={true}
+>
+  <styled__Wrapper
+    thin={true}
+  >
+    <span
+      className="styled__Wrapper-sc-1tz7lxd-0 eWawnb"
+    />
+  </styled__Wrapper>
+</_default>
+`;
+
+exports[`<PopupMenu /> should render correctly with blue theme 1`] = `
+<_default
+  theme="blue"
+>
+  <styled__Wrapper
+    theme="blue"
+  >
+    <span
+      className="styled__Wrapper-sc-1tz7lxd-0 kxfMAx"
+    />
+  </styled__Wrapper>
+</_default>
+`;
+
+exports[`<PopupMenu /> should render correctly with gray theme 1`] = `
+<_default
+  theme="gray"
+>
+  <styled__Wrapper
+    theme="gray"
+  >
+    <span
+      className="styled__Wrapper-sc-1tz7lxd-0 ehXENz"
+    />
+  </styled__Wrapper>
+</_default>
+`;
+
+exports[`<PopupMenu /> should render correctly with green theme 1`] = `
+<_default
+  theme="green"
+>
+  <styled__Wrapper
+    theme="green"
+  >
+    <span
+      className="styled__Wrapper-sc-1tz7lxd-0 iZebjb"
+    />
+  </styled__Wrapper>
+</_default>
+`;
+
+exports[`<PopupMenu /> should render correctly with red theme 1`] = `
+<_default
+  theme="red"
+>
+  <styled__Wrapper
+    theme="red"
+  >
+    <span
+      className="styled__Wrapper-sc-1tz7lxd-0 fcniRP"
+    />
+  </styled__Wrapper>
+</_default>
+`;
+
+exports[`<PopupMenu /> should render correctly with yellow theme 1`] = `
+<_default
+  theme="yellow"
+>
+  <styled__Wrapper
+    theme="yellow"
+  >
+    <span
+      className="styled__Wrapper-sc-1tz7lxd-0 lcvThl"
+    />
+  </styled__Wrapper>
+</_default>
+`;
+
+exports[`<PopupMenu /> should render correctly without props 1`] = `
+<_default>
+  <styled__Wrapper>
+    <span
+      className="styled__Wrapper-sc-1tz7lxd-0 fcniRP"
+    />
+  </styled__Wrapper>
+</_default>
+`;

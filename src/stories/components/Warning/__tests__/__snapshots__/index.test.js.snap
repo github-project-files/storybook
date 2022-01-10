@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Warning /> should render correctly with custom warning text 1`] = `
+<Warning
+  message="Test message"
+>
+  <styled__WarningMessage>
+    <div
+      className="styled__WarningMessage-sc-1dzobon-1 hdedCK"
+    >
+      <styled__Alert>
+        <test-file-stub
+          className="styled__Alert-sc-1dzobon-0 fsLAJZ"
+        />
+      </styled__Alert>
+       
+      Test message
+    </div>
+  </styled__WarningMessage>
+</Warning>
+`;
+
+exports[`<Warning /> should render correctly with default warning text 1`] = `
+<Warning>
+  <styled__WarningMessage>
+    <div
+      className="styled__WarningMessage-sc-1dzobon-1 hdedCK"
+    >
+      <styled__Alert>
+        <test-file-stub
+          className="styled__Alert-sc-1dzobon-0 fsLAJZ"
+        />
+      </styled__Alert>
+       
+      You have exceeded your plan limit. Upgrade your plan today!
+    </div>
+  </styled__WarningMessage>
+</Warning>
+`;

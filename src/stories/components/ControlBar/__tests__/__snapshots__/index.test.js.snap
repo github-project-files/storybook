@@ -1,0 +1,95 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ControlBar /> should render correctly with empty items 1`] = `
+<ControlBar
+  center={Array []}
+  className="className"
+  left={Array []}
+  onSelectItem={[MockFunction]}
+  right={Array []}
+>
+  <styled__Wrapper
+    className="className"
+  >
+    <div
+      className="className styled__Wrapper-xs9hpj-0 fEvvEH"
+    />
+  </styled__Wrapper>
+</ControlBar>
+`;
+
+exports[`<ControlBar /> should render correctly with full props 1`] = `
+<ControlBar
+  center={
+    Array [
+      Object {
+        "type": "checkbox",
+      },
+      Object {},
+    ]
+  }
+  className="className"
+  left={
+    Array [
+      Object {
+        "type": "tab",
+      },
+    ]
+  }
+  onSelectItem={[MockFunction]}
+  right={
+    Array [
+      Object {
+        "type": "dropdown-toggle",
+      },
+      Object {
+        "type": "dropdown-nav",
+      },
+    ]
+  }
+>
+  <styled__Wrapper
+    className="className"
+  >
+    <div
+      className="className styled__Wrapper-xs9hpj-0 fEvvEH"
+    >
+      <styled__Section>
+        <div
+          className="styled__Section-xs9hpj-1 lkkohE"
+        >
+          <_default
+            item={
+              Object {
+                "type": "tab",
+              }
+            }
+            key="tab-0"
+            onSelectItem={[MockFunction]}
+          >
+            <styled__Tab
+              active={false}
+              onClick={[Function]}
+            >
+              <div
+                className="styled__Tab-xs9hpj-2 aVytJ"
+                onClick={[Function]}
+              />
+            </styled__Tab>
+          </_default>
+        </div>
+      </styled__Section>
+      <styled__Section>
+        <div
+          className="styled__Section-xs9hpj-1 lkkohE"
+        />
+      </styled__Section>
+      <styled__Section>
+        <div
+          className="styled__Section-xs9hpj-1 lkkohE"
+        />
+      </styled__Section>
+    </div>
+  </styled__Wrapper>
+</ControlBar>
+`;

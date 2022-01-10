@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PriorityBadge /> compact view should render correctly with HIGH priority 1`] = `
+<_default
+  theme="red"
+>
+  High
+</_default>
+`;
+
+exports[`<PriorityBadge /> compact view should render correctly with LOW priority 1`] = `
+<_default
+  theme="blue"
+>
+  Low
+</_default>
+`;
+
+exports[`<PriorityBadge /> compact view should render correctly with MEDIUM priority 1`] = `
+<_default
+  theme="yellow"
+>
+  Med
+</_default>
+`;
+
+exports[`<PriorityBadge /> compact view should render correctly with NONE priority 1`] = `
+<_default
+  theme="gray"
+/>
+`;
+
+exports[`<PriorityBadge /> compact view should render correctly with NONE priority with default view 1`] = `
+<_default
+  theme="gray"
+/>
+`;
+
+exports[`<PriorityBadge /> full view should render correctly with HIGH priority 1`] = `
+<_default
+  theme="red"
+>
+  High Priority
+</_default>
+`;
+
+exports[`<PriorityBadge /> full view should render correctly with LOW priority 1`] = `
+<_default
+  theme="blue"
+>
+  Low Priority
+</_default>
+`;
+
+exports[`<PriorityBadge /> full view should render correctly with MEDIUM priority 1`] = `
+<_default
+  theme="yellow"
+>
+  Medium Priority
+</_default>
+`;
+
+exports[`<PriorityBadge /> full view should render correctly with NONE priority 1`] = `
+<_default
+  theme="gray"
+>
+  Unprioritized
+</_default>
+`;

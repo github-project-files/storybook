@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PanelCentered /> snapshot 1`] = `<styled__Wrapper />`;
+
+exports[`<PanelCentered /> snapshot 2`] = `
+<styled__Wrapper
+  width={500}
+/>
+`;

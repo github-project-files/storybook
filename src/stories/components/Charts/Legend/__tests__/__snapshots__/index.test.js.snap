@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<renderLegend /> should render correctly with props 1`] = `
+Array [
+  <styled__LegendItem>
+    <styled__Marker
+      bgColor="red"
+    />
+    <styled__Label>
+      0
+    </styled__Label>
+    <styled__Value>
+      0
+      %
+    </styled__Value>
+  </styled__LegendItem>,
+  <styled__LegendItem>
+    <styled__Marker
+      bgColor="blue"
+    />
+    <styled__Label>
+      1
+    </styled__Label>
+    <styled__Value>
+      1
+      %
+    </styled__Value>
+  </styled__LegendItem>,
+  <styled__LegendItem>
+    <styled__Marker />
+    <styled__Label>
+      2
+    </styled__Label>
+    <styled__Value>
+      2
+      %
+    </styled__Value>
+  </styled__LegendItem>,
+]
+`;

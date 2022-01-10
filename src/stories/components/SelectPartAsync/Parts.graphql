@@ -1,0 +1,18 @@
+query Parts (
+  $ids: [String!]
+  $search: String
+  $limit: Int
+  $offset: Int
+  ) {
+  parts (
+    ids: $ids
+    search: $search
+    limit: $limit
+    offset: $offset
+  ) {
+    id
+    name
+    cost
+    quantity
+  }
+}

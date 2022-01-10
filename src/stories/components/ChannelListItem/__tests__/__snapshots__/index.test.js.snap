@@ -1,0 +1,382 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ChannelListItem /> should render correctly for inactive not direct messages 1`] = `
+<_default
+  active={false}
+  channel={
+    Object {
+      "avatar": "Avatar",
+      "id": 0,
+      "lastChannelMessage": Object {
+        "body": "",
+        "createdAt": "",
+        "user": Object {
+          "firstname": "Name",
+        },
+      },
+      "pinned": true,
+      "type": "GROUP_MESSAGE",
+      "users": Array [
+        Object {
+          "id": 1,
+        },
+      ],
+    }
+  }
+  onClick={[MockFunction]}
+  session={
+    Object {
+      "id": 2,
+    }
+  }
+  unread={true}
+>
+  <styled__Wrapper
+    active={false}
+    onClick={[Function]}
+    pinned={true}
+  >
+    <li
+      className="styled__Wrapper-sc-1wjrk8z-0 ljWMgc"
+      onClick={[Function]}
+    >
+      <styled__Participants
+        active={false}
+      >
+        <div
+          className="styled__Participants-sc-1wjrk8z-2 koGZMK"
+        >
+          1
+        </div>
+      </styled__Participants>
+      <styled__Details>
+        <div
+          className="styled__Details-sc-1wjrk8z-3 ZkCsN"
+        >
+          <styled__Title
+            active={false}
+          >
+            <div
+              className="styled__Title-sc-1wjrk8z-4 bjYnLH"
+            >
+              <label />
+              <label>
+                Invalid date
+              </label>
+            </div>
+          </styled__Title>
+          <styled__Body
+            active={false}
+            unread={true}
+          >
+            <div
+              className="styled__Body-sc-1wjrk8z-5 jxxAhQ"
+            />
+          </styled__Body>
+        </div>
+      </styled__Details>
+      <styled__Star>
+        <span
+          className="styled__Star-sc-1wjrk8z-7 gsAcqq"
+        >
+          ⭑
+        </span>
+      </styled__Star>
+      <styled__Unread>
+        <span
+          className="styled__Unread-sc-1wjrk8z-8 eTlaFo"
+        >
+          ·
+        </span>
+      </styled__Unread>
+    </li>
+  </styled__Wrapper>
+</_default>
+`;
+
+exports[`<ChannelListItem /> should render correctly for inactive, read, body message more than 155 chars
+    and user with firstname and lastname 1`] = `
+<_default
+  active={false}
+  channel={
+    Object {
+      "avatar": "Avatar",
+      "id": 0,
+      "lastChannelMessage": Object {
+        "body": "Should be more than 155 chars to test a specific case
+            Should be more than 155 chars to test a specific case
+            Should be more than 155 chars to test a specific case.",
+        "createdAt": "",
+        "user": Object {
+          "firstName": "Name",
+          "lastName": "Lastname",
+        },
+      },
+      "name": "Name",
+      "pinned": false,
+      "type": "DIRECT_MESSAGE",
+      "users": Array [
+        Object {
+          "firstName": "First",
+          "id": 1,
+          "lastName": "Last",
+        },
+        Object {
+          "firstName": "First",
+          "id": 2,
+          "lastName": "Last",
+        },
+        Object {
+          "firstName": "First",
+          "id": 3,
+          "lastName": "Last",
+        },
+      ],
+    }
+  }
+  onClick={[MockFunction]}
+  session={
+    Object {
+      "id": 2,
+    }
+  }
+  unread={false}
+>
+  <styled__Wrapper
+    active={false}
+    onClick={[Function]}
+    pinned={false}
+  >
+    <li
+      className="styled__Wrapper-sc-1wjrk8z-0 ljWMgc"
+      onClick={[Function]}
+    >
+      <styled__Avatar
+        src="/static/web/assets/defaultAvatar.png"
+      >
+        <img
+          className="styled__Avatar-sc-1wjrk8z-1 bvoqYD"
+          src="/static/web/assets/defaultAvatar.png"
+        />
+      </styled__Avatar>
+      <styled__Details>
+        <div
+          className="styled__Details-sc-1wjrk8z-3 ZkCsN"
+        >
+          <styled__Title
+            active={false}
+          >
+            <div
+              className="styled__Title-sc-1wjrk8z-4 bjYnLH"
+            >
+              <label>
+                First Last
+              </label>
+              <label>
+                Invalid date
+              </label>
+            </div>
+          </styled__Title>
+          <styled__Body
+            active={false}
+            unread={false}
+          >
+            <div
+              className="styled__Body-sc-1wjrk8z-5 dgzbXo"
+            >
+              Name Should be more than 155 chars to te...
+            </div>
+          </styled__Body>
+        </div>
+      </styled__Details>
+    </li>
+  </styled__Wrapper>
+</_default>
+`;
+
+exports[`<ChannelListItem /> should render correctly for not direct messages 1`] = `
+<_default
+  active={true}
+  channel={
+    Object {
+      "avatar": "Avatar",
+      "id": 0,
+      "lastChannelMessage": Object {
+        "body": "",
+        "createdAt": "",
+        "user": Object {
+          "firstname": "Name",
+        },
+      },
+      "pinned": true,
+      "type": "GROUP_MESSAGE",
+      "users": Array [
+        Object {
+          "id": 1,
+        },
+      ],
+    }
+  }
+  onClick={[MockFunction]}
+  session={
+    Object {
+      "id": 2,
+    }
+  }
+  unread={true}
+>
+  <styled__Wrapper
+    active={true}
+    onClick={[Function]}
+    pinned={true}
+  >
+    <li
+      className="styled__Wrapper-sc-1wjrk8z-0 jIiWfe"
+      onClick={[Function]}
+    >
+      <styled__Participants
+        active={true}
+      >
+        <div
+          className="styled__Participants-sc-1wjrk8z-2 fkmtTt"
+        >
+          1
+        </div>
+      </styled__Participants>
+      <styled__Details>
+        <div
+          className="styled__Details-sc-1wjrk8z-3 ZkCsN"
+        >
+          <styled__Title
+            active={true}
+          >
+            <div
+              className="styled__Title-sc-1wjrk8z-4 kjaPRJ"
+            >
+              <label />
+              <label>
+                Invalid date
+              </label>
+            </div>
+          </styled__Title>
+          <styled__Body
+            active={true}
+            unread={true}
+          >
+            <div
+              className="styled__Body-sc-1wjrk8z-5 kRivHZ"
+            />
+          </styled__Body>
+        </div>
+      </styled__Details>
+      <styled__Star>
+        <span
+          className="styled__Star-sc-1wjrk8z-7 gsAcqq"
+        >
+          ⭑
+        </span>
+      </styled__Star>
+      <styled__Unread>
+        <span
+          className="styled__Unread-sc-1wjrk8z-8 eTlaFo"
+        >
+          ·
+        </span>
+      </styled__Unread>
+    </li>
+  </styled__Wrapper>
+</_default>
+`;
+
+exports[`<ChannelListItem /> should render correctly with mandatory props 1`] = `
+<_default
+  active={true}
+  channel={
+    Object {
+      "avatar": "Avatar",
+      "id": 0,
+      "lastChannelMessage": Object {
+        "body": "",
+        "createdAt": "",
+        "user": Object {
+          "firstname": "Name",
+        },
+      },
+      "pinned": true,
+      "type": "DIRECT_MESSAGE",
+      "users": Array [
+        Object {
+          "id": 1,
+        },
+      ],
+    }
+  }
+  onClick={[MockFunction]}
+  session={
+    Object {
+      "id": 2,
+    }
+  }
+  unread={true}
+>
+  <styled__Wrapper
+    active={true}
+    onClick={[Function]}
+    pinned={true}
+  >
+    <li
+      className="styled__Wrapper-sc-1wjrk8z-0 jIiWfe"
+      onClick={[Function]}
+    >
+      <styled__Avatar
+        src="/static/web/assets/defaultAvatar.png"
+      >
+        <img
+          className="styled__Avatar-sc-1wjrk8z-1 bvoqYD"
+          src="/static/web/assets/defaultAvatar.png"
+        />
+      </styled__Avatar>
+      <styled__Details>
+        <div
+          className="styled__Details-sc-1wjrk8z-3 ZkCsN"
+        >
+          <styled__Title
+            active={true}
+          >
+            <div
+              className="styled__Title-sc-1wjrk8z-4 kjaPRJ"
+            >
+              <label />
+              <label>
+                Invalid date
+              </label>
+            </div>
+          </styled__Title>
+          <styled__Body
+            active={true}
+            unread={true}
+          >
+            <div
+              className="styled__Body-sc-1wjrk8z-5 kRivHZ"
+            />
+          </styled__Body>
+        </div>
+      </styled__Details>
+      <styled__Star>
+        <span
+          className="styled__Star-sc-1wjrk8z-7 gsAcqq"
+        >
+          ⭑
+        </span>
+      </styled__Star>
+      <styled__Unread>
+        <span
+          className="styled__Unread-sc-1wjrk8z-8 eTlaFo"
+        >
+          ·
+        </span>
+      </styled__Unread>
+    </li>
+  </styled__Wrapper>
+</_default>
+`;

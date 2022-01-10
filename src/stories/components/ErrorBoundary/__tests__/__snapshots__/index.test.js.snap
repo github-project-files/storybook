@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ErrorBoundary /> should render correctly if child throws error 1`] = `
+<ErrorBoundary>
+  <_default
+    withMargin={true}
+  >
+    <styled__Wrapper>
+      <div
+        className="styled__Wrapper-sc-1g40xjj-0 fFtIze"
+      >
+        <styled__InnerWrapper
+          className="_test-inner-wrapper"
+          withMargin={true}
+        >
+          <div
+            className="_test-inner-wrapper styled__InnerWrapper-sc-1g40xjj-1 bRVfRH"
+          >
+            <styled__PageTitle>
+              <h3
+                className="styled__PageTitle-sc-6ustwi-0 kcbPTN"
+              >
+                Something went wrong.
+              </h3>
+            </styled__PageTitle>
+            <_default
+              onClick={[Function]}
+              pill={true}
+              theme="blue-gradient"
+            >
+              <styled__Wrapper
+                onClick={[Function]}
+                pill={true}
+                theme="blue-gradient"
+                type="button"
+              >
+                <button
+                  className="styled__Wrapper-sc-6m8pxr-0 bJTQMf"
+                  onClick={[Function]}
+                  type="button"
+                >
+                  Refresh
+                </button>
+              </styled__Wrapper>
+            </_default>
+            <styled__Details>
+              <details
+                className="styled__Details-sc-6ustwi-1 gXUiOm"
+              >
+                <summary>
+                  More information
+                </summary>
+                Error: ERROR
+                <br />
+                
+    in ChildWithError
+    in ErrorBoundary (created by WrapperComponent)
+    in WrapperComponent
+              </details>
+            </styled__Details>
+          </div>
+        </styled__InnerWrapper>
+      </div>
+    </styled__Wrapper>
+  </_default>
+</ErrorBoundary>
+`;
+
+exports[`<ErrorBoundary /> should render correctly with mandatory props 1`] = `
+<ErrorBoundary>
+  <p>
+    Child
+  </p>
+</ErrorBoundary>
+`;

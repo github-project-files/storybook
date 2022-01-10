@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ButtonCircle /> should render correctly with blue theme 1`] = `
+<_default
+  theme="blue"
+>
+  <styled__Wrapper
+    theme="blue"
+  >
+    <button
+      className="styled__Wrapper-akfokf-0 hQjSbH"
+    />
+  </styled__Wrapper>
+</_default>
+`;
+
+exports[`<ButtonCircle /> should render correctly with red theme 1`] = `
+<_default
+  theme="red"
+>
+  <styled__Wrapper
+    theme="red"
+  >
+    <button
+      className="styled__Wrapper-akfokf-0 hgfigR"
+    />
+  </styled__Wrapper>
+</_default>
+`;
+
+exports[`<ButtonCircle /> should render correctly without theme 1`] = `
+<_default>
+  <styled__Wrapper>
+    <button
+      className="styled__Wrapper-akfokf-0 faeiwv"
+    />
+  </styled__Wrapper>
+</_default>
+`;

@@ -1,0 +1,209 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SidePanel /> should render correctly if not show and full props 1`] = `
+<_default
+  header={false}
+  show={false}
+  side="left"
+>
+  <styled__Wrapper
+    show={false}
+    side="left"
+    width={500}
+  >
+    <div
+      className="styled__Wrapper-pphozb-0 fjHRVi"
+      width={500}
+    >
+      <styled__InnerWrapper>
+        <div
+          className="styled__InnerWrapper-pphozb-2 hsrEzi"
+        />
+      </styled__InnerWrapper>
+    </div>
+  </styled__Wrapper>
+</_default>
+`;
+
+exports[`<SidePanel /> should render correctly with header 1`] = `
+<_default
+  header={true}
+  show={true}
+  side="left"
+>
+  <styled__Wrapper
+    show={true}
+    side="left"
+    width={500}
+  >
+    <div
+      className="styled__Wrapper-pphozb-0 boaNwF"
+      width={500}
+    >
+      <styled__InnerWrapper>
+        <div
+          className="styled__InnerWrapper-pphozb-2 hsrEzi"
+        />
+      </styled__InnerWrapper>
+    </div>
+  </styled__Wrapper>
+</_default>
+`;
+
+exports[`<SidePanel /> should render correctly with header title, right side and 100% width when no show 1`] = `
+<_default
+  headerTitle="title"
+  show={false}
+  side="right"
+  width="100%"
+>
+  <styled__Wrapper
+    show={false}
+    side="right"
+    width="100%"
+  >
+    <div
+      className="styled__Wrapper-pphozb-0 ecXJV"
+      width="100%"
+    >
+      <_default
+        title="title"
+      >
+        <styled__Wrapper>
+          <div
+            className="styled__Wrapper-sc-10wtz8u-0 eoaLjo"
+          >
+            <styled__NavWrapper>
+              <div
+                className="styled__NavWrapper-sc-10wtz8u-1 eanWvd"
+              />
+            </styled__NavWrapper>
+            <styled__TitleWrapper>
+              <div
+                className="styled__TitleWrapper-sc-10wtz8u-2 jhnXZS"
+              >
+                title
+              </div>
+            </styled__TitleWrapper>
+            <styled__ButtonsWrapper>
+              <div
+                className="styled__ButtonsWrapper-sc-10wtz8u-3 fWxmrY"
+              />
+            </styled__ButtonsWrapper>
+          </div>
+        </styled__Wrapper>
+      </_default>
+      <styled__InnerWrapper>
+        <div
+          className="styled__InnerWrapper-pphozb-2 hsrEzi"
+        />
+      </styled__InnerWrapper>
+    </div>
+  </styled__Wrapper>
+</_default>
+`;
+
+exports[`<SidePanel /> should render correctly with headerButtons 1`] = `
+<_default
+  headerButtons={
+    Array [
+      [Function],
+    ]
+  }
+  show={true}
+>
+  <styled__Wrapper
+    show={true}
+    side="right"
+    width={500}
+  >
+    <div
+      className="styled__Wrapper-pphozb-0 bJLdMT"
+      width={500}
+    >
+      <_default
+        buttons={
+          Array [
+            [Function],
+          ]
+        }
+        title=""
+      >
+        <styled__Wrapper>
+          <div
+            className="styled__Wrapper-sc-10wtz8u-0 eoaLjo"
+          >
+            <styled__NavWrapper>
+              <div
+                className="styled__NavWrapper-sc-10wtz8u-1 eanWvd"
+              />
+            </styled__NavWrapper>
+            <styled__TitleWrapper>
+              <div
+                className="styled__TitleWrapper-sc-10wtz8u-2 jhnXZS"
+              />
+            </styled__TitleWrapper>
+            <styled__ButtonsWrapper>
+              <div
+                className="styled__ButtonsWrapper-sc-10wtz8u-3 fWxmrY"
+              />
+            </styled__ButtonsWrapper>
+          </div>
+        </styled__Wrapper>
+      </_default>
+      <styled__InnerWrapper>
+        <div
+          className="styled__InnerWrapper-pphozb-2 hsrEzi"
+        />
+      </styled__InnerWrapper>
+    </div>
+  </styled__Wrapper>
+</_default>
+`;
+
+exports[`<SidePanel /> should render correctly with mandatory props 1`] = `
+<_default
+  show={true}
+>
+  <styled__Wrapper
+    show={true}
+    side="right"
+    width={500}
+  >
+    <div
+      className="styled__Wrapper-pphozb-0 bJLdMT"
+      width={500}
+    >
+      <styled__InnerWrapper>
+        <div
+          className="styled__InnerWrapper-pphozb-2 hsrEzi"
+        />
+      </styled__InnerWrapper>
+    </div>
+  </styled__Wrapper>
+</_default>
+`;
+
+exports[`<SidePanel /> should render correctly with right side if no show 1`] = `
+<_default
+  show={false}
+  side="right"
+>
+  <styled__Wrapper
+    show={false}
+    side="right"
+    width={500}
+  >
+    <div
+      className="styled__Wrapper-pphozb-0 gHArpk"
+      width={500}
+    >
+      <styled__InnerWrapper>
+        <div
+          className="styled__InnerWrapper-pphozb-2 hsrEzi"
+        />
+      </styled__InnerWrapper>
+    </div>
+  </styled__Wrapper>
+</_default>
+`;

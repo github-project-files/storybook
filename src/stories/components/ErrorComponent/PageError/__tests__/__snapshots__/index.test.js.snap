@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PageError /> should render correctly with mandatory props 1`] = `
+<PageError
+  name="Name"
+>
+  <styled__WrapperDiv>
+    <div
+      className="styled__WrapperDiv-w1dqal-1 jaTVfF"
+    >
+      <styled__IconWrapper>
+        <div
+          className="styled__IconWrapper-w1dqal-2 haIZXu"
+        >
+          <styled__AlertIcon>
+            <test-file-stub
+              className="styled__AlertIcon-w1dqal-0 hVdZQz"
+            />
+          </styled__AlertIcon>
+        </div>
+      </styled__IconWrapper>
+      <styled__ContentWrapper>
+        <div
+          className="styled__ContentWrapper-w1dqal-3 khjyeA"
+        >
+          <styled__ErrorMessage>
+            <p
+              className="styled__ErrorMessage-w1dqal-4 lolziL"
+            >
+              Something went wrong while loading
+               Name
+            </p>
+          </styled__ErrorMessage>
+          <styled__ErrorHelpMessage>
+            <p
+              className="styled__ErrorHelpMessage-w1dqal-5 eixZob"
+            >
+              Please try again in sometime
+            </p>
+          </styled__ErrorHelpMessage>
+        </div>
+      </styled__ContentWrapper>
+    </div>
+  </styled__WrapperDiv>
+</PageError>
+`;

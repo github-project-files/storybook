@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="13" viewBox="0 0 16 13">
+    <defs>
+        <path id="listIcon" style="fill-rule:evenodd;clip-rule:evenodd;" d="M4.923 2h9.846a1.23 1.23 0 0 1 0 2.462H4.923a1.23 1.23 0 0 1 0-2.462zm0 4.923h9.846a1.23 1.23 0 0 1 0 2.462H4.923a1.23 1.23 0 0 1 0-2.462zm0 4.923h9.846a1.23 1.23 0 0 1 0 2.462H4.923a1.23 1.23 0 1 1 0-2.462zM1.231 2a1.23 1.23 0 1 1 0 2.462A1.23 1.23 0 0 1 1.23 2zm0 4.923a1.23 1.23 0 1 1 0 2.462 1.23 1.23 0 0 1 0-2.462zm0 4.923a1.23 1.23 0 1 1 0 2.462 1.23 1.23 0 0 1 0-2.462z"/>
+    </defs>
+    <use fill="#363839" fill-rule="evenodd" transform="translate(0 -2)" xlink:href="#listIcon"/>
+</svg>

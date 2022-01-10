@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PageHeader /> snapshot 1`] = `
+<styled__Wrapper>
+  <test-file-stub
+    className="_test-menu-icon menu-icon"
+    onClick={[Function]}
+  />
+  <label
+    className="_test-page-header-title"
+  />
+  <_default
+    onClick={[Function]}
+    size="xs"
+    theme="cancel"
+  >
+    <test-file-stub />
+  </_default>
+  <span>
+    <test-file-stub />
+  </span>
+  <span
+    onClick={[Function]}
+  >
+    <DropdownMenu
+      direction="bottom-left"
+      display={false}
+      header=""
+      menuItems={
+        Array [
+          Object {
+            "handleOnClick": [Function],
+            "label": "View Profile",
+          },
+          Object {
+            "handleOnClick": [Function],
+            "label": "View Company Profile",
+          },
+          Object {
+            "handleOnClick": [Function],
+            "label": "Log Out",
+          },
+        ]
+      }
+      offsetY="30"
+      width="160"
+    >
+      <test-file-stub />
+    </DropdownMenu>
+  </span>
+</styled__Wrapper>
+`;

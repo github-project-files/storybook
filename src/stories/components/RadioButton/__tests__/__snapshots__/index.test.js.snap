@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<RadioButton /> should render correctly with full props 1`] = `
+<_default
+  checked={true}
+  label="label"
+  onClick={[MockFunction]}
+>
+  <styled__ButtonLabelWrapper
+    label="label"
+  >
+    <div
+      className="styled__ButtonLabelWrapper-sc-1u6knhx-0 jnycro"
+      label="label"
+    >
+      <styled__RadioButtonWrapper
+        checked={true}
+        onClick={[MockFunction]}
+      >
+        <div
+          checked={true}
+          className="styled__RadioButtonWrapper-sc-1u6knhx-1 fmfpKP"
+          onClick={[MockFunction]}
+        >
+          <span />
+        </div>
+      </styled__RadioButtonWrapper>
+      <styled__Label>
+        <div
+          className="styled__Label-sc-1u6knhx-2 kUfDyV"
+        >
+          label
+        </div>
+      </styled__Label>
+    </div>
+  </styled__ButtonLabelWrapper>
+</_default>
+`;
+
+exports[`<RadioButton /> should render correctly without props 1`] = `
+<_default>
+  <styled__ButtonLabelWrapper>
+    <div
+      className="styled__ButtonLabelWrapper-sc-1u6knhx-0 keXxD"
+    >
+      <styled__RadioButtonWrapper>
+        <div
+          className="styled__RadioButtonWrapper-sc-1u6knhx-1 dqisNB"
+        >
+          <span />
+        </div>
+      </styled__RadioButtonWrapper>
+    </div>
+  </styled__ButtonLabelWrapper>
+</_default>
+`;

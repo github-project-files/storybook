@@ -1,0 +1,350 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Accordian /> should call custom handler on toggle 1`] = `
+<Accordian
+  body={[Function]}
+  header={[Function]}
+  onAccordionToggle={[MockFunction]}
+  useDefaultStyle={true}
+>
+  <styled__Wrapper
+    useDefaultStyle={true}
+  >
+    <div
+      className="styled__Wrapper-exutvq-0 hRanGO"
+    >
+      <styled__TitleBlock
+        onClick={[Function]}
+      >
+        <div
+          className="styled__TitleBlock-exutvq-1 khWXmY"
+          onClick={[Function]}
+        >
+          <styled__DownArrow
+            up="false"
+          >
+            <test-file-stub
+              className="styled__DownArrow-exutvq-3 cOBOxj"
+            />
+          </styled__DownArrow>
+        </div>
+      </styled__TitleBlock>
+      <styled__Body
+        open={false}
+      >
+        <div
+          className="styled__Body-exutvq-2 kSOKag"
+          open={false}
+        >
+          <Component />
+        </div>
+      </styled__Body>
+    </div>
+  </styled__Wrapper>
+</Accordian>
+`;
+
+exports[`<Accordian /> should call custom handler on toggle 2`] = `
+<Accordian
+  body={[Function]}
+  header={[Function]}
+  onAccordionToggle={
+    [MockFunction] {
+      "calls": Array [
+        Array [
+          true,
+        ],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    }
+  }
+  useDefaultStyle={true}
+>
+  <styled__Wrapper
+    useDefaultStyle={true}
+  >
+    <div
+      className="styled__Wrapper-exutvq-0 hRanGO"
+    >
+      <styled__TitleBlock
+        onClick={[Function]}
+      >
+        <div
+          className="styled__TitleBlock-exutvq-1 khWXmY"
+          onClick={[Function]}
+        >
+          <styled__DownArrow
+            up="true"
+          >
+            <test-file-stub
+              className="styled__DownArrow-exutvq-3 Gkmrw"
+            />
+          </styled__DownArrow>
+        </div>
+      </styled__TitleBlock>
+      <styled__Body
+        open={true}
+      >
+        <div
+          className="styled__Body-exutvq-2 gyjJto"
+          open={true}
+        >
+          <Component />
+        </div>
+      </styled__Body>
+    </div>
+  </styled__Wrapper>
+</Accordian>
+`;
+
+exports[`<Accordian /> should correctly toggle without custom handler 1`] = `
+<Accordian
+  body={[Function]}
+  header={[Function]}
+  useDefaultStyle={true}
+>
+  <styled__Wrapper
+    useDefaultStyle={true}
+  >
+    <div
+      className="styled__Wrapper-exutvq-0 hRanGO"
+    >
+      <styled__TitleBlock
+        onClick={[Function]}
+      >
+        <div
+          className="styled__TitleBlock-exutvq-1 khWXmY"
+          onClick={[Function]}
+        >
+          <styled__DownArrow
+            up="false"
+          >
+            <test-file-stub
+              className="styled__DownArrow-exutvq-3 cOBOxj"
+            />
+          </styled__DownArrow>
+        </div>
+      </styled__TitleBlock>
+      <styled__Body
+        open={false}
+      >
+        <div
+          className="styled__Body-exutvq-2 kSOKag"
+          open={false}
+        >
+          <Component />
+        </div>
+      </styled__Body>
+    </div>
+  </styled__Wrapper>
+</Accordian>
+`;
+
+exports[`<Accordian /> should correctly toggle without custom handler 2`] = `
+<Accordian
+  body={[Function]}
+  header={[Function]}
+  useDefaultStyle={true}
+>
+  <styled__Wrapper
+    useDefaultStyle={true}
+  >
+    <div
+      className="styled__Wrapper-exutvq-0 hRanGO"
+    >
+      <styled__TitleBlock
+        onClick={[Function]}
+      >
+        <div
+          className="styled__TitleBlock-exutvq-1 khWXmY"
+          onClick={[Function]}
+        >
+          <styled__DownArrow
+            up="true"
+          >
+            <test-file-stub
+              className="styled__DownArrow-exutvq-3 Gkmrw"
+            />
+          </styled__DownArrow>
+        </div>
+      </styled__TitleBlock>
+      <styled__Body
+        open={true}
+      >
+        <div
+          className="styled__Body-exutvq-2 gyjJto"
+          open={true}
+        >
+          <Component />
+        </div>
+      </styled__Body>
+    </div>
+  </styled__Wrapper>
+</Accordian>
+`;
+
+exports[`<Accordian /> should not toggle if always open 1`] = `
+<Accordian
+  alwaysOpen={true}
+  body={[Function]}
+  header={[Function]}
+  useDefaultStyle={true}
+>
+  <styled__Wrapper
+    useDefaultStyle={true}
+  >
+    <div
+      className="styled__Wrapper-exutvq-0 hRanGO"
+    >
+      <styled__TitleBlock
+        onClick={[Function]}
+      >
+        <div
+          className="styled__TitleBlock-exutvq-1 khWXmY"
+          onClick={[Function]}
+        >
+          <Component />
+        </div>
+      </styled__TitleBlock>
+      <styled__Body
+        open={true}
+      >
+        <div
+          className="styled__Body-exutvq-2 gyjJto"
+          open={true}
+        >
+          <Component />
+        </div>
+      </styled__Body>
+    </div>
+  </styled__Wrapper>
+</Accordian>
+`;
+
+exports[`<Accordian /> should not toggle if always open 2`] = `
+<Accordian
+  alwaysOpen={true}
+  body={[Function]}
+  header={[Function]}
+  useDefaultStyle={true}
+>
+  <styled__Wrapper
+    useDefaultStyle={true}
+  >
+    <div
+      className="styled__Wrapper-exutvq-0 hRanGO"
+    >
+      <styled__TitleBlock
+        onClick={[Function]}
+      >
+        <div
+          className="styled__TitleBlock-exutvq-1 khWXmY"
+          onClick={[Function]}
+        >
+          <Component />
+        </div>
+      </styled__TitleBlock>
+      <styled__Body
+        open={true}
+      >
+        <div
+          className="styled__Body-exutvq-2 gyjJto"
+          open={true}
+        >
+          <Component />
+        </div>
+      </styled__Body>
+    </div>
+  </styled__Wrapper>
+</Accordian>
+`;
+
+exports[`<Accordian /> should render correctly with all props given 1`] = `
+<Accordian
+  alwaysOpen={true}
+  body={[Function]}
+  className=""
+  constdefaultOpen={true}
+  header={[Function]}
+  onAccordionToggle={[MockFunction]}
+  useDefaultStyle={false}
+>
+  <styled__Wrapper
+    className=""
+    useDefaultStyle={false}
+  >
+    <div
+      className="styled__Wrapper-exutvq-0 cCximc"
+    >
+      <styled__TitleBlock
+        onClick={[Function]}
+      >
+        <div
+          className="styled__TitleBlock-exutvq-1 khWXmY"
+          onClick={[Function]}
+        >
+          <Component />
+        </div>
+      </styled__TitleBlock>
+      <styled__Body
+        open={true}
+      >
+        <div
+          className="styled__Body-exutvq-2 gyjJto"
+          open={true}
+        >
+          <Component />
+        </div>
+      </styled__Body>
+    </div>
+  </styled__Wrapper>
+</Accordian>
+`;
+
+exports[`<Accordian /> should render correctly with only mandatory props given 1`] = `
+<Accordian
+  body={[Function]}
+  header={[Function]}
+  useDefaultStyle={true}
+>
+  <styled__Wrapper
+    useDefaultStyle={true}
+  >
+    <div
+      className="styled__Wrapper-exutvq-0 hRanGO"
+    >
+      <styled__TitleBlock
+        onClick={[Function]}
+      >
+        <div
+          className="styled__TitleBlock-exutvq-1 khWXmY"
+          onClick={[Function]}
+        >
+          <styled__DownArrow
+            up="false"
+          >
+            <test-file-stub
+              className="styled__DownArrow-exutvq-3 cOBOxj"
+            />
+          </styled__DownArrow>
+        </div>
+      </styled__TitleBlock>
+      <styled__Body
+        open={false}
+      >
+        <div
+          className="styled__Body-exutvq-2 kSOKag"
+          open={false}
+        >
+          <Component />
+        </div>
+      </styled__Body>
+    </div>
+  </styled__Wrapper>
+</Accordian>
+`;

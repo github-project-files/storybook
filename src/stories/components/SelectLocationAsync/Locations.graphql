@@ -1,0 +1,33 @@
+query Locations (
+  $ids: [String!]
+  $limit: Int
+  $search: String
+  $showSublocations: Boolean
+  $filterSubLocations: Boolean
+  $sort: String
+  $offset: Int
+  $restrictionsLevel: Int
+  $includes: [LocationsIncludeEnum]
+  ) {
+  locations (
+    ids: $ids
+    limit: $limit
+    search: $search
+    showSublocations: $showSublocations
+    filterSubLocations: $filterSubLocations
+    sort: $sort
+    offset: $offset
+    restrictionsLevel: $restrictionsLevel
+    includes: $includes
+  ) {
+    id
+    name
+    address
+    subLocations {
+      id
+      name
+      address
+      root
+    }
+  }
+}

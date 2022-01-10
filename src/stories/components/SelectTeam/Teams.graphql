@@ -1,0 +1,18 @@
+
+query Teams (
+  $id: String
+  $limit: Int
+  $search: String
+  $offset: Int
+) {
+  teams (
+    id: $id
+    limit: $limit
+    search: $search
+    offset: $offset
+  ) {
+    id
+    name
+    totalUsers
+  }
+}

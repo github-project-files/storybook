@@ -1,0 +1,381 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DueDate /> should render correctly if not completed 1`] = `
+<_default
+  dueDate="0"
+  schedule={
+    Object {
+      "some": "thing",
+    }
+  }
+  status=""
+>
+  <styled__DueDateWrapper
+    pastDue={true}
+  >
+    <div
+      className="styled__DueDateWrapper-sc-1l6r9up-0 lhokGd"
+    >
+      <div>
+        01/01/00
+         
+        <styled__DueDateIcons>
+          <span
+            className="styled__DueDateIcons-sc-1l6r9up-2 fcNomY"
+          >
+            <_default
+              effect="solid"
+              id=""
+              place="top"
+              value="Past Due"
+            >
+              <styled__Wrapper
+                data-for=""
+                data-tip="Past Due"
+                effect="solid"
+                id=""
+                place="top"
+                value="Past Due"
+              >
+                <div
+                  className="styled__Wrapper-funpqb-0 cznzQQ"
+                  data-for=""
+                  data-tip="Past Due"
+                  id=""
+                  value="Past Due"
+                >
+                  <test-file-stub
+                    key="alert"
+                  />
+                  <styled__TooltipWrapper
+                    display="true"
+                  >
+                    <div
+                      className="styled__TooltipWrapper-funpqb-1 gQtIVd"
+                      display="true"
+                    >
+                      <ReactTooltip
+                        clickable={false}
+                        delayShow={300}
+                        effect="solid"
+                        getContent={[Function]}
+                        html={true}
+                        id=""
+                        insecure={true}
+                        multiline={true}
+                        place="top"
+                        resizeHide={true}
+                        type="dark"
+                        wrapper="div"
+                      >
+                        <div
+                          className="__react_component_tooltip place-top type-dark"
+                          data-id="tooltip"
+                          id=""
+                        >
+                          null
+                        </div>
+                      </ReactTooltip>
+                    </div>
+                  </styled__TooltipWrapper>
+                </div>
+              </styled__Wrapper>
+            </_default>
+            <_default
+              effect="solid"
+              id=""
+              place="top"
+              value="Repeating"
+            >
+              <styled__Wrapper
+                data-for=""
+                data-tip="Repeating"
+                effect="solid"
+                id=""
+                place="top"
+                value="Repeating"
+              >
+                <div
+                  className="styled__Wrapper-funpqb-0 cznzQQ"
+                  data-for=""
+                  data-tip="Repeating"
+                  id=""
+                  value="Repeating"
+                >
+                  <test-file-stub
+                    key="repeating"
+                  />
+                  <styled__TooltipWrapper
+                    display="true"
+                  >
+                    <div
+                      className="styled__TooltipWrapper-funpqb-1 gQtIVd"
+                      display="true"
+                    >
+                      <ReactTooltip
+                        clickable={false}
+                        delayShow={300}
+                        effect="solid"
+                        getContent={[Function]}
+                        html={true}
+                        id=""
+                        insecure={true}
+                        multiline={true}
+                        place="top"
+                        resizeHide={true}
+                        type="dark"
+                        wrapper="div"
+                      >
+                        <div
+                          className="__react_component_tooltip place-top type-dark"
+                          data-id="tooltip"
+                          id=""
+                        >
+                          null
+                        </div>
+                      </ReactTooltip>
+                    </div>
+                  </styled__TooltipWrapper>
+                </div>
+              </styled__Wrapper>
+            </_default>
+          </span>
+        </styled__DueDateIcons>
+      </div>
+    </div>
+  </styled__DueDateWrapper>
+</_default>
+`;
+
+exports[`<DueDate /> should render correctly with id 1`] = `
+<_default
+  dueDate="0"
+  id={1}
+  schedule={
+    Object {
+      "some": "thing",
+    }
+  }
+  status="COMPLETE"
+>
+  <styled__DueDateWrapper
+    pastDue={false}
+  >
+    <div
+      className="styled__DueDateWrapper-sc-1l6r9up-0 eMWSAz"
+    >
+      <div>
+        01/01/00
+         
+        <styled__DueDateIcons>
+          <span
+            className="styled__DueDateIcons-sc-1l6r9up-2 fcNomY"
+          >
+            <_default
+              effect="solid"
+              id="1-repeat"
+              place="top"
+              value="Repeating"
+            >
+              <styled__Wrapper
+                data-for="1-repeat"
+                data-tip="Repeating"
+                effect="solid"
+                id="1-repeat"
+                place="top"
+                value="Repeating"
+              >
+                <div
+                  className="styled__Wrapper-funpqb-0 cznzQQ"
+                  data-for="1-repeat"
+                  data-tip="Repeating"
+                  id="1-repeat"
+                  value="Repeating"
+                >
+                  <test-file-stub
+                    key="repeating"
+                  />
+                  <styled__TooltipWrapper
+                    display="true"
+                  >
+                    <div
+                      className="styled__TooltipWrapper-funpqb-1 gQtIVd"
+                      display="true"
+                    >
+                      <ReactTooltip
+                        clickable={false}
+                        delayShow={300}
+                        effect="solid"
+                        getContent={[Function]}
+                        html={true}
+                        id="1-repeat"
+                        insecure={true}
+                        multiline={true}
+                        place="top"
+                        resizeHide={true}
+                        type="dark"
+                        wrapper="div"
+                      >
+                        <div
+                          className="__react_component_tooltip place-top type-dark"
+                          data-id="tooltip"
+                          id="1-repeat"
+                        >
+                          null
+                        </div>
+                      </ReactTooltip>
+                    </div>
+                  </styled__TooltipWrapper>
+                </div>
+              </styled__Wrapper>
+            </_default>
+          </span>
+        </styled__DueDateIcons>
+      </div>
+    </div>
+  </styled__DueDateWrapper>
+</_default>
+`;
+
+exports[`<DueDate /> should render correctly with mandatory props 1`] = `
+<_default
+  dueDate="0"
+  schedule={
+    Object {
+      "some": "thing",
+    }
+  }
+  status="COMPLETE"
+>
+  <styled__DueDateWrapper
+    pastDue={false}
+  >
+    <div
+      className="styled__DueDateWrapper-sc-1l6r9up-0 eMWSAz"
+    >
+      <div>
+        01/01/00
+         
+        <styled__DueDateIcons>
+          <span
+            className="styled__DueDateIcons-sc-1l6r9up-2 fcNomY"
+          >
+            <_default
+              effect="solid"
+              id=""
+              place="top"
+              value="Repeating"
+            >
+              <styled__Wrapper
+                data-for=""
+                data-tip="Repeating"
+                effect="solid"
+                id=""
+                place="top"
+                value="Repeating"
+              >
+                <div
+                  className="styled__Wrapper-funpqb-0 cznzQQ"
+                  data-for=""
+                  data-tip="Repeating"
+                  id=""
+                  value="Repeating"
+                >
+                  <test-file-stub
+                    key="repeating"
+                  />
+                  <styled__TooltipWrapper
+                    display="true"
+                  >
+                    <div
+                      className="styled__TooltipWrapper-funpqb-1 gQtIVd"
+                      display="true"
+                    >
+                      <ReactTooltip
+                        clickable={false}
+                        delayShow={300}
+                        effect="solid"
+                        getContent={[Function]}
+                        html={true}
+                        id=""
+                        insecure={true}
+                        multiline={true}
+                        place="top"
+                        resizeHide={true}
+                        type="dark"
+                        wrapper="div"
+                      >
+                        <div
+                          className="__react_component_tooltip place-top type-dark"
+                          data-id="tooltip"
+                          id=""
+                        >
+                          null
+                        </div>
+                      </ReactTooltip>
+                    </div>
+                  </styled__TooltipWrapper>
+                </div>
+              </styled__Wrapper>
+            </_default>
+          </span>
+        </styled__DueDateIcons>
+      </div>
+    </div>
+  </styled__DueDateWrapper>
+</_default>
+`;
+
+exports[`<DueDate /> should render correctly without due date 1`] = `
+<_default
+  dueDate={false}
+  schedule={
+    Object {
+      "some": "thing",
+    }
+  }
+  status="COMPLETE"
+>
+  <styled__DueDateWrapper
+    pastDue={false}
+  >
+    <div
+      className="styled__DueDateWrapper-sc-1l6r9up-0 eMWSAz"
+    >
+      <styled__EmptyTableValue>
+        <div
+          className="styled__EmptyTableValue-sc-1l6r9up-1 fTyxVG"
+        >
+          -
+        </div>
+      </styled__EmptyTableValue>
+    </div>
+  </styled__DueDateWrapper>
+</_default>
+`;
+
+exports[`<DueDate /> should render correctly without schedule 1`] = `
+<_default
+  dueDate="0"
+  schedule={null}
+  status="COMPLETE"
+>
+  <styled__DueDateWrapper
+    pastDue={false}
+  >
+    <div
+      className="styled__DueDateWrapper-sc-1l6r9up-0 eMWSAz"
+    >
+      <div>
+        01/01/00
+         
+        <styled__DueDateIcons>
+          <span
+            className="styled__DueDateIcons-sc-1l6r9up-2 fcNomY"
+          />
+        </styled__DueDateIcons>
+      </div>
+    </div>
+  </styled__DueDateWrapper>
+</_default>
+`;

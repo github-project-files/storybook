@@ -1,0 +1,22 @@
+query WorkOrders (
+$limit: Int
+$search: String
+$mode: WorkOrderModeEnum
+$status: [WorkOrderStatusEnum!]
+$objectId: ObjectIDFilterInput
+) {
+    workOrders (
+        limit: $limit
+        search: $search
+        mode: $mode
+        status: $status
+        objectId: $objectId
+    ) {
+        id
+        title
+        rootId
+        dueDate
+        status
+        number
+    }
+}

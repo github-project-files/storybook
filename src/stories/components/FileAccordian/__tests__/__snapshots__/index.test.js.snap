@@ -1,0 +1,1090 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FileAccordian /> should remove file if can edit 1`] = `
+<ErrorBoundary
+  canEdit={true}
+  onRemove={[MockFunction]}
+  onUpdate={[MockFunction]}
+  t={[MockFunction]}
+  workOrderFiles={
+    Array [
+      Object {
+        "id": "5",
+        "originalName": "Name",
+        "url": "https://some.url.org/file.pdf",
+      },
+    ]
+  }
+  workOrderId="id1"
+>
+  <PartAccordian
+    canEdit={true}
+    onRemove={[MockFunction]}
+    onUpdate={[MockFunction]}
+    t={[MockFunction]}
+    workOrderFiles={
+      Array [
+        Object {
+          "id": "5",
+          "originalName": "Name",
+          "url": "https://some.url.org/file.pdf",
+        },
+      ]
+    }
+    workOrderId="id1"
+  >
+    <Accordian
+      body={
+        <styled__TableWrapper>
+          <styled__Table>
+            <thead>
+              <tr>
+                <styled__ColumnHeader />
+                <styled__ColumnHeader
+                  align="left"
+                >
+                  File Name
+                </styled__ColumnHeader>
+                <styled__ColumnHeader />
+              </tr>
+            </thead>
+            <styled__TableBody>
+              <tr>
+                <styled__TableCell>
+                  1
+                </styled__TableCell>
+                <styled__TableCell
+                  onClick={[Function]}
+                >
+                  Name
+                </styled__TableCell>
+                <styled__TableCell
+                  onClick={[Function]}
+                >
+                  <styled__DeleteIcon />
+                </styled__TableCell>
+              </tr>
+            </styled__TableBody>
+          </styled__Table>
+          <styled__AddButton
+            onClick={[Function]}
+          >
+            + Attach File
+          </styled__AddButton>
+        </styled__TableWrapper>
+      }
+      header={
+        <styled__TitleWrapper>
+          <styled__FilesIcon />
+          <div>
+            <styled__SubTitle>
+              Files
+            </styled__SubTitle>
+            <styled__Title>
+              <styled__Count>
+                1
+              </styled__Count>
+               Attached Files
+            </styled__Title>
+          </div>
+        </styled__TitleWrapper>
+      }
+      useDefaultStyle={true}
+    >
+      <styled__Wrapper
+        useDefaultStyle={true}
+      >
+        <div
+          className="styled__Wrapper-exutvq-0 hRanGO"
+        >
+          <styled__TitleBlock
+            onClick={[Function]}
+          >
+            <div
+              className="styled__TitleBlock-exutvq-1 khWXmY"
+              onClick={[Function]}
+            >
+              <styled__TitleWrapper>
+                <div
+                  className="styled__TitleWrapper-sc-12nnodo-0 jpDdNB"
+                >
+                  <styled__FilesIcon>
+                    <test-file-stub
+                      className="styled__FilesIcon-sc-12nnodo-5 hgaujP"
+                    />
+                  </styled__FilesIcon>
+                  <div>
+                    <styled__SubTitle>
+                      <div
+                        className="styled__SubTitle-sc-12nnodo-1 hRHidn"
+                      >
+                        Files
+                      </div>
+                    </styled__SubTitle>
+                    <styled__Title>
+                      <div
+                        className="styled__Title-sc-12nnodo-2 dVFNaV"
+                      >
+                        <styled__Count>
+                          <span
+                            className="styled__Count-sc-12nnodo-3 iwubDi"
+                          >
+                            1
+                          </span>
+                        </styled__Count>
+                         Attached Files
+                      </div>
+                    </styled__Title>
+                  </div>
+                </div>
+              </styled__TitleWrapper>
+              <styled__DownArrow
+                up="false"
+              >
+                <test-file-stub
+                  className="styled__DownArrow-exutvq-3 cOBOxj"
+                />
+              </styled__DownArrow>
+            </div>
+          </styled__TitleBlock>
+          <styled__Body
+            open={false}
+          >
+            <div
+              className="styled__Body-exutvq-2 kSOKag"
+              open={false}
+            >
+              <styled__TableWrapper>
+                <div
+                  className="styled__TableWrapper-sc-12nnodo-6 lapMOT"
+                >
+                  <styled__Table>
+                    <table
+                      className="styled__Table-sc-12nnodo-7 cWyXja"
+                    >
+                      <thead>
+                        <tr>
+                          <styled__ColumnHeader>
+                            <th
+                              className="styled__ColumnHeader-sc-12nnodo-9 jSCorP"
+                            />
+                          </styled__ColumnHeader>
+                          <styled__ColumnHeader
+                            align="left"
+                          >
+                            <th
+                              className="styled__ColumnHeader-sc-12nnodo-9 jSCorP"
+                            >
+                              File Name
+                            </th>
+                          </styled__ColumnHeader>
+                          <styled__ColumnHeader>
+                            <th
+                              className="styled__ColumnHeader-sc-12nnodo-9 jSCorP"
+                            />
+                          </styled__ColumnHeader>
+                        </tr>
+                      </thead>
+                      <styled__TableBody>
+                        <tbody
+                          className="styled__TableBody-sc-12nnodo-8 glOTIY"
+                        >
+                          <tr
+                            key="5"
+                          >
+                            <styled__TableCell>
+                              <td
+                                className="styled__TableCell-sc-12nnodo-10 gWKgwL"
+                              >
+                                1
+                              </td>
+                            </styled__TableCell>
+                            <styled__TableCell
+                              onClick={[Function]}
+                            >
+                              <td
+                                className="styled__TableCell-sc-12nnodo-10 gWKgwL"
+                                onClick={[Function]}
+                              >
+                                Name
+                              </td>
+                            </styled__TableCell>
+                            <styled__TableCell
+                              onClick={[Function]}
+                            >
+                              <td
+                                className="styled__TableCell-sc-12nnodo-10 gWKgwL"
+                                onClick={[Function]}
+                              >
+                                <styled__DeleteIcon>
+                                  <test-file-stub
+                                    className="styled__DeleteIcon-sc-12nnodo-13 gyGXXC"
+                                  />
+                                </styled__DeleteIcon>
+                              </td>
+                            </styled__TableCell>
+                          </tr>
+                        </tbody>
+                      </styled__TableBody>
+                    </table>
+                  </styled__Table>
+                  <styled__AddButton
+                    onClick={[Function]}
+                  >
+                    <div
+                      className="styled__AddButton-sc-12nnodo-15 eSNDcy"
+                      onClick={[Function]}
+                    >
+                      + Attach File
+                    </div>
+                  </styled__AddButton>
+                </div>
+              </styled__TableWrapper>
+            </div>
+          </styled__Body>
+        </div>
+      </styled__Wrapper>
+    </Accordian>
+  </PartAccordian>
+</ErrorBoundary>
+`;
+
+exports[`<FileAccordian /> should remove file if can edit 2`] = `
+<ErrorBoundary
+  canEdit={true}
+  onRemove={
+    [MockFunction] {
+      "calls": Array [
+        Array [
+          "5",
+        ],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    }
+  }
+  onUpdate={[MockFunction]}
+  t={[MockFunction]}
+  workOrderFiles={
+    Array [
+      Object {
+        "id": "5",
+        "originalName": "Name",
+        "url": "https://some.url.org/file.pdf",
+      },
+    ]
+  }
+  workOrderId="id1"
+>
+  <PartAccordian
+    canEdit={true}
+    onRemove={
+      [MockFunction] {
+        "calls": Array [
+          Array [
+            "5",
+          ],
+        ],
+        "results": Array [
+          Object {
+            "type": "return",
+            "value": undefined,
+          },
+        ],
+      }
+    }
+    onUpdate={[MockFunction]}
+    t={[MockFunction]}
+    workOrderFiles={
+      Array [
+        Object {
+          "id": "5",
+          "originalName": "Name",
+          "url": "https://some.url.org/file.pdf",
+        },
+      ]
+    }
+    workOrderId="id1"
+  >
+    <Accordian
+      body={
+        <styled__TableWrapper>
+          <styled__Table>
+            <thead>
+              <tr>
+                <styled__ColumnHeader />
+                <styled__ColumnHeader
+                  align="left"
+                >
+                  File Name
+                </styled__ColumnHeader>
+                <styled__ColumnHeader />
+              </tr>
+            </thead>
+            <styled__TableBody>
+              <tr>
+                <styled__TableCell>
+                  1
+                </styled__TableCell>
+                <styled__TableCell
+                  onClick={[Function]}
+                >
+                  Name
+                </styled__TableCell>
+                <styled__TableCell
+                  onClick={[Function]}
+                >
+                  <styled__DeleteIcon />
+                </styled__TableCell>
+              </tr>
+            </styled__TableBody>
+          </styled__Table>
+          <styled__LoaderWrapper>
+            <_default
+              size="sm"
+            />
+          </styled__LoaderWrapper>
+          <styled__AddButton
+            onClick={[Function]}
+          >
+            + Attach File
+          </styled__AddButton>
+        </styled__TableWrapper>
+      }
+      header={
+        <styled__TitleWrapper>
+          <styled__FilesIcon />
+          <div>
+            <styled__SubTitle>
+              Files
+            </styled__SubTitle>
+            <styled__Title>
+              <styled__Count>
+                1
+              </styled__Count>
+               Attached Files
+            </styled__Title>
+          </div>
+        </styled__TitleWrapper>
+      }
+      useDefaultStyle={true}
+    >
+      <styled__Wrapper
+        useDefaultStyle={true}
+      >
+        <div
+          className="styled__Wrapper-exutvq-0 hRanGO"
+        >
+          <styled__TitleBlock
+            onClick={[Function]}
+          >
+            <div
+              className="styled__TitleBlock-exutvq-1 khWXmY"
+              onClick={[Function]}
+            >
+              <styled__TitleWrapper>
+                <div
+                  className="styled__TitleWrapper-sc-12nnodo-0 jpDdNB"
+                >
+                  <styled__FilesIcon>
+                    <test-file-stub
+                      className="styled__FilesIcon-sc-12nnodo-5 hgaujP"
+                    />
+                  </styled__FilesIcon>
+                  <div>
+                    <styled__SubTitle>
+                      <div
+                        className="styled__SubTitle-sc-12nnodo-1 hRHidn"
+                      >
+                        Files
+                      </div>
+                    </styled__SubTitle>
+                    <styled__Title>
+                      <div
+                        className="styled__Title-sc-12nnodo-2 dVFNaV"
+                      >
+                        <styled__Count>
+                          <span
+                            className="styled__Count-sc-12nnodo-3 iwubDi"
+                          >
+                            1
+                          </span>
+                        </styled__Count>
+                         Attached Files
+                      </div>
+                    </styled__Title>
+                  </div>
+                </div>
+              </styled__TitleWrapper>
+              <styled__DownArrow
+                up="false"
+              >
+                <test-file-stub
+                  className="styled__DownArrow-exutvq-3 cOBOxj"
+                />
+              </styled__DownArrow>
+            </div>
+          </styled__TitleBlock>
+          <styled__Body
+            open={false}
+          >
+            <div
+              className="styled__Body-exutvq-2 kSOKag"
+              open={false}
+            >
+              <styled__TableWrapper>
+                <div
+                  className="styled__TableWrapper-sc-12nnodo-6 lapMOT"
+                >
+                  <styled__Table>
+                    <table
+                      className="styled__Table-sc-12nnodo-7 cWyXja"
+                    >
+                      <thead>
+                        <tr>
+                          <styled__ColumnHeader>
+                            <th
+                              className="styled__ColumnHeader-sc-12nnodo-9 jSCorP"
+                            />
+                          </styled__ColumnHeader>
+                          <styled__ColumnHeader
+                            align="left"
+                          >
+                            <th
+                              className="styled__ColumnHeader-sc-12nnodo-9 jSCorP"
+                            >
+                              File Name
+                            </th>
+                          </styled__ColumnHeader>
+                          <styled__ColumnHeader>
+                            <th
+                              className="styled__ColumnHeader-sc-12nnodo-9 jSCorP"
+                            />
+                          </styled__ColumnHeader>
+                        </tr>
+                      </thead>
+                      <styled__TableBody>
+                        <tbody
+                          className="styled__TableBody-sc-12nnodo-8 glOTIY"
+                        >
+                          <tr
+                            key="5"
+                          >
+                            <styled__TableCell>
+                              <td
+                                className="styled__TableCell-sc-12nnodo-10 gWKgwL"
+                              >
+                                1
+                              </td>
+                            </styled__TableCell>
+                            <styled__TableCell
+                              onClick={[Function]}
+                            >
+                              <td
+                                className="styled__TableCell-sc-12nnodo-10 gWKgwL"
+                                onClick={[Function]}
+                              >
+                                Name
+                              </td>
+                            </styled__TableCell>
+                            <styled__TableCell
+                              onClick={[Function]}
+                            >
+                              <td
+                                className="styled__TableCell-sc-12nnodo-10 gWKgwL"
+                                onClick={[Function]}
+                              >
+                                <styled__DeleteIcon>
+                                  <test-file-stub
+                                    className="styled__DeleteIcon-sc-12nnodo-13 gyGXXC"
+                                  />
+                                </styled__DeleteIcon>
+                              </td>
+                            </styled__TableCell>
+                          </tr>
+                        </tbody>
+                      </styled__TableBody>
+                    </table>
+                  </styled__Table>
+                  <styled__LoaderWrapper>
+                    <div
+                      className="styled__LoaderWrapper-sc-12nnodo-16 iGFzok"
+                    >
+                      <_default
+                        size="sm"
+                      >
+                        <styled__Wrapper>
+                          <div
+                            className="styled__Wrapper-sc-13fyzg2-0 dALDIE"
+                          >
+                            <styled__InnerWrapper>
+                              <div
+                                className="styled__InnerWrapper-sc-13fyzg2-1 fWGPuP"
+                              >
+                                <styled__LoaderWrapper>
+                                  <div
+                                    className="styled__LoaderWrapper-sc-13fyzg2-2 dYpael"
+                                  >
+                                    <styled__LoaderIcon
+                                      size="sm"
+                                    >
+                                      <test-file-stub
+                                        className="styled__LoaderIcon-sc-13fyzg2-3 dpbhpg"
+                                        size="sm"
+                                      />
+                                    </styled__LoaderIcon>
+                                    <styled__LoaderIcon
+                                      size="sm"
+                                    >
+                                      <test-file-stub
+                                        className="styled__LoaderIcon-sc-13fyzg2-3 dpbhpg"
+                                        size="sm"
+                                      />
+                                    </styled__LoaderIcon>
+                                    <styled__LoaderIcon
+                                      size="sm"
+                                    >
+                                      <test-file-stub
+                                        className="styled__LoaderIcon-sc-13fyzg2-3 dpbhpg"
+                                        size="sm"
+                                      />
+                                    </styled__LoaderIcon>
+                                  </div>
+                                </styled__LoaderWrapper>
+                              </div>
+                            </styled__InnerWrapper>
+                          </div>
+                        </styled__Wrapper>
+                      </_default>
+                    </div>
+                  </styled__LoaderWrapper>
+                  <styled__AddButton
+                    onClick={[Function]}
+                  >
+                    <div
+                      className="styled__AddButton-sc-12nnodo-15 eSNDcy"
+                      onClick={[Function]}
+                    >
+                      + Attach File
+                    </div>
+                  </styled__AddButton>
+                </div>
+              </styled__TableWrapper>
+            </div>
+          </styled__Body>
+        </div>
+      </styled__Wrapper>
+    </Accordian>
+  </PartAccordian>
+</ErrorBoundary>
+`;
+
+exports[`<FileAccordian /> should render correctly 1`] = `
+<ErrorBoundary
+  onRemove={[MockFunction]}
+  onUpdate={[MockFunction]}
+  t={[MockFunction]}
+  workOrderFiles={Array []}
+  workOrderId="id1"
+>
+  <PartAccordian
+    onRemove={[MockFunction]}
+    onUpdate={[MockFunction]}
+    t={[MockFunction]}
+    workOrderFiles={Array []}
+    workOrderId="id1"
+  >
+    <Accordian
+      body={
+        <styled__TableWrapper>
+          <styled__Table>
+            <thead>
+              <tr>
+                <styled__ColumnHeader />
+                <styled__ColumnHeader
+                  align="left"
+                >
+                  File Name
+                </styled__ColumnHeader>
+                <styled__ColumnHeader />
+              </tr>
+            </thead>
+            <styled__TableBody />
+          </styled__Table>
+          <styled__AddButton
+            onClick={[Function]}
+          >
+            + Attach File
+          </styled__AddButton>
+        </styled__TableWrapper>
+      }
+      header={
+        <styled__TitleWrapper>
+          <styled__FilesIcon />
+          <div>
+            <styled__SubTitle>
+              Files
+            </styled__SubTitle>
+            <styled__Title>
+              <styled__Count>
+                0
+              </styled__Count>
+               Attached Files
+            </styled__Title>
+          </div>
+        </styled__TitleWrapper>
+      }
+      useDefaultStyle={true}
+    >
+      <styled__Wrapper
+        useDefaultStyle={true}
+      >
+        <div
+          className="styled__Wrapper-exutvq-0 hRanGO"
+        >
+          <styled__TitleBlock
+            onClick={[Function]}
+          >
+            <div
+              className="styled__TitleBlock-exutvq-1 khWXmY"
+              onClick={[Function]}
+            >
+              <styled__TitleWrapper>
+                <div
+                  className="styled__TitleWrapper-sc-12nnodo-0 jpDdNB"
+                >
+                  <styled__FilesIcon>
+                    <test-file-stub
+                      className="styled__FilesIcon-sc-12nnodo-5 hgaujP"
+                    />
+                  </styled__FilesIcon>
+                  <div>
+                    <styled__SubTitle>
+                      <div
+                        className="styled__SubTitle-sc-12nnodo-1 hRHidn"
+                      >
+                        Files
+                      </div>
+                    </styled__SubTitle>
+                    <styled__Title>
+                      <div
+                        className="styled__Title-sc-12nnodo-2 dVFNaV"
+                      >
+                        <styled__Count>
+                          <span
+                            className="styled__Count-sc-12nnodo-3 iwubDi"
+                          >
+                            0
+                          </span>
+                        </styled__Count>
+                         Attached Files
+                      </div>
+                    </styled__Title>
+                  </div>
+                </div>
+              </styled__TitleWrapper>
+              <styled__DownArrow
+                up="false"
+              >
+                <test-file-stub
+                  className="styled__DownArrow-exutvq-3 cOBOxj"
+                />
+              </styled__DownArrow>
+            </div>
+          </styled__TitleBlock>
+          <styled__Body
+            open={false}
+          >
+            <div
+              className="styled__Body-exutvq-2 kSOKag"
+              open={false}
+            >
+              <styled__TableWrapper>
+                <div
+                  className="styled__TableWrapper-sc-12nnodo-6 lapMOT"
+                >
+                  <styled__Table>
+                    <table
+                      className="styled__Table-sc-12nnodo-7 cWyXja"
+                    >
+                      <thead>
+                        <tr>
+                          <styled__ColumnHeader>
+                            <th
+                              className="styled__ColumnHeader-sc-12nnodo-9 jSCorP"
+                            />
+                          </styled__ColumnHeader>
+                          <styled__ColumnHeader
+                            align="left"
+                          >
+                            <th
+                              className="styled__ColumnHeader-sc-12nnodo-9 jSCorP"
+                            >
+                              File Name
+                            </th>
+                          </styled__ColumnHeader>
+                          <styled__ColumnHeader>
+                            <th
+                              className="styled__ColumnHeader-sc-12nnodo-9 jSCorP"
+                            />
+                          </styled__ColumnHeader>
+                        </tr>
+                      </thead>
+                      <styled__TableBody>
+                        <tbody
+                          className="styled__TableBody-sc-12nnodo-8 glOTIY"
+                        />
+                      </styled__TableBody>
+                    </table>
+                  </styled__Table>
+                  <styled__AddButton
+                    onClick={[Function]}
+                  >
+                    <div
+                      className="styled__AddButton-sc-12nnodo-15 eSNDcy"
+                      onClick={[Function]}
+                    >
+                      + Attach File
+                    </div>
+                  </styled__AddButton>
+                </div>
+              </styled__TableWrapper>
+            </div>
+          </styled__Body>
+        </div>
+      </styled__Wrapper>
+    </Accordian>
+  </PartAccordian>
+</ErrorBoundary>
+`;
+
+exports[`<FileAccordian /> should render correctly with optional props 1`] = `
+<ErrorBoundary
+  alwaysOpen={true}
+  canEdit={true}
+  onRemove={[MockFunction]}
+  onUpdate={[MockFunction]}
+  onUpdateWorkOrder={[MockFunction]}
+  required={true}
+  t={
+    [MockFunction] {
+      "calls": Array [
+        Array [
+          "pages.workorders.tooltips.filesRequired",
+        ],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    }
+  }
+  triggerFileUpgradeModal={[MockFunction]}
+  workOrderFiles={
+    Array [
+      Object {
+        "id": "1",
+      },
+    ]
+  }
+  workOrderId="id1"
+>
+  <PartAccordian
+    alwaysOpen={true}
+    canEdit={true}
+    onRemove={[MockFunction]}
+    onUpdate={[MockFunction]}
+    onUpdateWorkOrder={[MockFunction]}
+    required={true}
+    t={
+      [MockFunction] {
+        "calls": Array [
+          Array [
+            "pages.workorders.tooltips.filesRequired",
+          ],
+        ],
+        "results": Array [
+          Object {
+            "type": "return",
+            "value": undefined,
+          },
+        ],
+      }
+    }
+    triggerFileUpgradeModal={[MockFunction]}
+    workOrderFiles={
+      Array [
+        Object {
+          "id": "1",
+        },
+      ]
+    }
+    workOrderId="id1"
+  >
+    <Accordian
+      alwaysOpen={true}
+      body={
+        <styled__TableWrapper>
+          <styled__Table>
+            <thead>
+              <tr>
+                <styled__ColumnHeader />
+                <styled__ColumnHeader
+                  align="left"
+                >
+                  File Name
+                </styled__ColumnHeader>
+                <styled__ColumnHeader />
+              </tr>
+            </thead>
+            <styled__TableBody>
+              <tr>
+                <styled__TableCell>
+                  1
+                </styled__TableCell>
+                <styled__TableCell
+                  onClick={[Function]}
+                />
+                <styled__TableCell
+                  onClick={[Function]}
+                >
+                  <styled__DeleteIcon />
+                </styled__TableCell>
+              </tr>
+            </styled__TableBody>
+          </styled__Table>
+          <styled__AddButton
+            onClick={[Function]}
+          >
+            + Attach File
+          </styled__AddButton>
+        </styled__TableWrapper>
+      }
+      header={
+        <styled__TitleWrapper>
+          <styled__FilesIcon />
+          <div>
+            <styled__SubTitle>
+              Files
+              <_default
+                id="required-files"
+              >
+                <span>
+                   *
+                </span>
+              </_default>
+            </styled__SubTitle>
+            <styled__Title>
+              <styled__Count>
+                1
+              </styled__Count>
+               Attached Files
+            </styled__Title>
+          </div>
+        </styled__TitleWrapper>
+      }
+      useDefaultStyle={true}
+    >
+      <styled__Wrapper
+        useDefaultStyle={true}
+      >
+        <div
+          className="styled__Wrapper-exutvq-0 hRanGO"
+        >
+          <styled__TitleBlock
+            onClick={[Function]}
+          >
+            <div
+              className="styled__TitleBlock-exutvq-1 khWXmY"
+              onClick={[Function]}
+            >
+              <styled__TitleWrapper>
+                <div
+                  className="styled__TitleWrapper-sc-12nnodo-0 jpDdNB"
+                >
+                  <styled__FilesIcon>
+                    <test-file-stub
+                      className="styled__FilesIcon-sc-12nnodo-5 hgaujP"
+                    />
+                  </styled__FilesIcon>
+                  <div>
+                    <styled__SubTitle>
+                      <div
+                        className="styled__SubTitle-sc-12nnodo-1 hRHidn"
+                      >
+                        Files
+                        <_default
+                          id="required-files"
+                        >
+                          <styled__Wrapper
+                            data-for="required-files"
+                            id="required-files"
+                          >
+                            <div
+                              className="styled__Wrapper-funpqb-0 cznzQQ"
+                              data-for="required-files"
+                              id="required-files"
+                            >
+                              <span>
+                                 *
+                              </span>
+                              <styled__TooltipWrapper
+                                display="true"
+                              >
+                                <div
+                                  className="styled__TooltipWrapper-funpqb-1 gQtIVd"
+                                  display="true"
+                                >
+                                  <ReactTooltip
+                                    clickable={false}
+                                    delayShow={300}
+                                    effect="solid"
+                                    getContent={[Function]}
+                                    html={true}
+                                    id="required-files"
+                                    insecure={true}
+                                    multiline={true}
+                                    place="top"
+                                    resizeHide={true}
+                                    type="dark"
+                                    wrapper="div"
+                                  >
+                                    <div
+                                      className="__react_component_tooltip place-top type-dark"
+                                      data-id="tooltip"
+                                      id="required-files"
+                                    >
+                                      null
+                                    </div>
+                                  </ReactTooltip>
+                                </div>
+                              </styled__TooltipWrapper>
+                            </div>
+                          </styled__Wrapper>
+                        </_default>
+                      </div>
+                    </styled__SubTitle>
+                    <styled__Title>
+                      <div
+                        className="styled__Title-sc-12nnodo-2 dVFNaV"
+                      >
+                        <styled__Count>
+                          <span
+                            className="styled__Count-sc-12nnodo-3 iwubDi"
+                          >
+                            1
+                          </span>
+                        </styled__Count>
+                         Attached Files
+                      </div>
+                    </styled__Title>
+                  </div>
+                </div>
+              </styled__TitleWrapper>
+            </div>
+          </styled__TitleBlock>
+          <styled__Body
+            open={true}
+          >
+            <div
+              className="styled__Body-exutvq-2 gyjJto"
+              open={true}
+            >
+              <styled__TableWrapper>
+                <div
+                  className="styled__TableWrapper-sc-12nnodo-6 lapMOT"
+                >
+                  <styled__Table>
+                    <table
+                      className="styled__Table-sc-12nnodo-7 cWyXja"
+                    >
+                      <thead>
+                        <tr>
+                          <styled__ColumnHeader>
+                            <th
+                              className="styled__ColumnHeader-sc-12nnodo-9 jSCorP"
+                            />
+                          </styled__ColumnHeader>
+                          <styled__ColumnHeader
+                            align="left"
+                          >
+                            <th
+                              className="styled__ColumnHeader-sc-12nnodo-9 jSCorP"
+                            >
+                              File Name
+                            </th>
+                          </styled__ColumnHeader>
+                          <styled__ColumnHeader>
+                            <th
+                              className="styled__ColumnHeader-sc-12nnodo-9 jSCorP"
+                            />
+                          </styled__ColumnHeader>
+                        </tr>
+                      </thead>
+                      <styled__TableBody>
+                        <tbody
+                          className="styled__TableBody-sc-12nnodo-8 glOTIY"
+                        >
+                          <tr
+                            key="1"
+                          >
+                            <styled__TableCell>
+                              <td
+                                className="styled__TableCell-sc-12nnodo-10 gWKgwL"
+                              >
+                                1
+                              </td>
+                            </styled__TableCell>
+                            <styled__TableCell
+                              onClick={[Function]}
+                            >
+                              <td
+                                className="styled__TableCell-sc-12nnodo-10 gWKgwL"
+                                onClick={[Function]}
+                              />
+                            </styled__TableCell>
+                            <styled__TableCell
+                              onClick={[Function]}
+                            >
+                              <td
+                                className="styled__TableCell-sc-12nnodo-10 gWKgwL"
+                                onClick={[Function]}
+                              >
+                                <styled__DeleteIcon>
+                                  <test-file-stub
+                                    className="styled__DeleteIcon-sc-12nnodo-13 gyGXXC"
+                                  />
+                                </styled__DeleteIcon>
+                              </td>
+                            </styled__TableCell>
+                          </tr>
+                        </tbody>
+                      </styled__TableBody>
+                    </table>
+                  </styled__Table>
+                  <styled__AddButton
+                    onClick={[Function]}
+                  >
+                    <div
+                      className="styled__AddButton-sc-12nnodo-15 eSNDcy"
+                      onClick={[Function]}
+                    >
+                      + Attach File
+                    </div>
+                  </styled__AddButton>
+                </div>
+              </styled__TableWrapper>
+            </div>
+          </styled__Body>
+        </div>
+      </styled__Wrapper>
+    </Accordian>
+  </PartAccordian>
+</ErrorBoundary>
+`;

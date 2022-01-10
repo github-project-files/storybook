@@ -1,0 +1,3858 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<WorkOrderInvoicePDF /> should render correctly with full props 1`] = `
+<WorkOrderInvoicePDF
+  woInvoice={
+    Object {
+      "additionalCostDetails": Array [
+        Object {
+          "category": Object {
+            "name": "Category",
+          },
+          "id": "1",
+          "info": "info",
+          "price": 110,
+        },
+      ],
+      "additionalCostPaid": 107,
+      "additonalCostSubtotal": 105,
+      "additonalCostTotal": 108,
+      "additonalOtherCost": 106,
+      "companyAddress": Object {
+        "companyLogo": Object {
+          "url": "urlPath",
+        },
+      },
+      "currency": 1,
+      "customerDetails": Object {
+        "billingAddressLine1": "A1",
+        "billingAddressLine2": "A2",
+        "billingAddressLine3": "A3",
+        "billingName": "Name",
+      },
+      "description": "Description",
+      "image": Object {
+        "file": Object {
+          "preview": "urlPath",
+        },
+      },
+      "invoiceDate": Object {
+        "format": [MockFunction] {
+          "calls": Array [
+            Array [
+              "L",
+            ],
+            Array [
+              "L",
+            ],
+            Array [
+              "L",
+            ],
+          ],
+          "results": Array [
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+          ],
+        },
+      },
+      "invoiceDueDate": Object {
+        "format": [MockFunction] {
+          "calls": Array [
+            Array [
+              "L",
+            ],
+            Array [
+              "L",
+            ],
+            Array [
+              "L",
+            ],
+          ],
+          "results": Array [
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+          ],
+        },
+      },
+      "invoiceNo": 2,
+      "otherCosts": 103,
+      "parts": Array [
+        Object {
+          "part": Object {
+            "id": "2",
+            "name": "Name",
+          },
+          "quantity": 109,
+        },
+      ],
+      "partsSubTotal": 100,
+      "partsTotal": 104,
+      "salesTax": 101,
+      "shippingCosts": 102,
+      "signatureDate": Object {
+        "format": [MockFunction] {
+          "calls": Array [
+            Array [
+              "L",
+            ],
+            Array [
+              "L",
+            ],
+            Array [
+              "L",
+            ],
+          ],
+          "results": Array [
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+            Object {
+              "type": "return",
+              "value": undefined,
+            },
+          ],
+        },
+      },
+      "title": "Title",
+      "useCompanyLogo": true,
+    }
+  }
+>
+  <DOCUMENT>
+    <PAGE
+      size="A4"
+      style={
+        Object {
+          "@media print": Object {
+            "padding": 10,
+          },
+          "fontFamily": "Open sans",
+          "padding": 20,
+        }
+      }
+      wrap={true}
+    >
+      <VIEW
+        style={
+          Object {
+            "display": "flex",
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+          }
+        }
+      >
+        <VIEW
+          style={
+            Object {
+              "display": "flex",
+            }
+          }
+        >
+          <VIEW
+            style={
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+              }
+            }
+          >
+            <TEXT
+              style={
+                Object {
+                  "@media print": Object {
+                    "fontSize": 12,
+                  },
+                  "fontSize": 16,
+                  "letterSpacing": 1.5,
+                  "textTransform": "uppercase",
+                }
+              }
+            >
+              Invoice#:
+            </TEXT>
+            <TEXT
+              style={
+                Object {
+                  "@media print": Object {
+                    "fontSize": 12,
+                  },
+                  "color": "#fb5447",
+                  "fontSize": 16,
+                  "fontWeight": 600,
+                }
+              }
+            >
+              2
+            </TEXT>
+          </VIEW>
+        </VIEW>
+        <VIEW
+          style={
+            Object {
+              "display": "flex",
+            }
+          }
+        >
+          <VIEW
+            style={
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+              }
+            }
+          >
+            <TEXT
+              style={
+                Object {
+                  "@media print": Object {
+                    "fontSize": 10,
+                  },
+                  "display": "flex",
+                  "fontSize": 14,
+                  "fontWeight": 600,
+                  "marginRight": 5,
+                }
+              }
+            >
+              Invoice Date:
+            </TEXT>
+            <TEXT
+              style={
+                Object {
+                  "@media print": Object {
+                    "fontSize": 10,
+                  },
+                  "display": "flex",
+                  "fontSize": 14,
+                }
+              }
+            />
+          </VIEW>
+        </VIEW>
+      </VIEW>
+      <VIEW
+        style={
+          Object {
+            "@media print": Object {
+              "marginBottom": 5,
+              "marginTop": 5,
+            },
+            "borderColor": "#b7bbbf",
+            "borderStyle": "solid",
+            "borderWidth": 1,
+            "display": "block",
+            "marginBottom": 10,
+            "marginTop": 10,
+          }
+        }
+      />
+      <VIEW
+        style={
+          Object {
+            "display": "flex",
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+          }
+        }
+      >
+        <VIEW
+          style={
+            Object {
+              "display": "flex",
+            }
+          }
+        >
+          <TEXT
+            style={
+              Object {
+                "@media print": Object {
+                  "fontSize": 12,
+                },
+                "fontSize": 16,
+                "fontWeight": 700,
+                "marginBottom": 5,
+              }
+            }
+          >
+            Work Order Details
+          </TEXT>
+        </VIEW>
+        <VIEW
+          style={
+            Object {
+              "display": "flex",
+            }
+          }
+        >
+          <VIEW
+            style={
+              Object {
+                "display": "flex",
+                "flexDirection": "column",
+              }
+            }
+          >
+            <VIEW
+              style={
+                Object {
+                  "display": "flex",
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <TEXT
+                style={
+                  Object {
+                    "@media print": Object {
+                      "fontSize": 10,
+                    },
+                    "display": "flex",
+                    "fontSize": 14,
+                    "fontWeight": 600,
+                    "marginRight": 5,
+                  }
+                }
+              >
+                Invoice Due Date
+              </TEXT>
+              <TEXT
+                style={
+                  Object {
+                    "@media print": Object {
+                      "fontSize": 10,
+                    },
+                    "display": "flex",
+                    "fontSize": 14,
+                  }
+                }
+              />
+            </VIEW>
+          </VIEW>
+        </VIEW>
+      </VIEW>
+      <VIEW
+        style={
+          Object {
+            "display": "flex",
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+          }
+        }
+      >
+        <VIEW
+          style={
+            Object {
+              "display": "flex",
+              "flexDirection": "column",
+            }
+          }
+        >
+          <VIEW
+            style={
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+              }
+            }
+          >
+            <TEXT
+              style={
+                Object {
+                  "@media print": Object {
+                    "fontSize": 10,
+                  },
+                  "display": "flex",
+                  "fontSize": 14,
+                  "fontWeight": 600,
+                  "marginRight": 5,
+                }
+              }
+            >
+              Title:
+            </TEXT>
+            <TEXT
+              style={
+                Object {
+                  "@media print": Object {
+                    "fontSize": 10,
+                  },
+                  "display": "flex",
+                  "fontSize": 14,
+                }
+              }
+            >
+              Title
+            </TEXT>
+          </VIEW>
+          <VIEW
+            style={
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+              }
+            }
+          >
+            <TEXT
+              style={
+                Object {
+                  "@media print": Object {
+                    "fontSize": 10,
+                  },
+                  "display": "flex",
+                  "fontSize": 14,
+                  "fontWeight": 600,
+                  "marginRight": 5,
+                }
+              }
+            >
+              Description:
+            </TEXT>
+            <TEXT
+              style={
+                Object {
+                  "@media print": Object {
+                    "fontSize": 10,
+                  },
+                  "display": "flex",
+                  "fontSize": 14,
+                  "marginRight": 50,
+                  "paddingRight": 20,
+                }
+              }
+            >
+              Description
+            </TEXT>
+          </VIEW>
+        </VIEW>
+      </VIEW>
+      <VIEW
+        style={
+          Object {
+            "@media print": Object {
+              "marginBottom": 5,
+              "marginTop": 5,
+            },
+            "borderColor": "#b7bbbf",
+            "borderStyle": "solid",
+            "borderWidth": 1,
+            "display": "block",
+            "marginBottom": 10,
+            "marginTop": 10,
+          }
+        }
+      />
+      <VIEW
+        style={
+          Object {
+            "alignItems": "flex-start",
+            "display": "flex",
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "paddingRight": 10,
+          }
+        }
+      >
+        <VIEW
+          style={
+            Object {
+              "display": "flex",
+            }
+          }
+        >
+          <VIEW
+            style={
+              Object {
+                "alignItems": "flex-start",
+                "display": "flex",
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+                "paddingRight": 10,
+              }
+            }
+          >
+            <IMAGE
+              src="urlPath"
+              style={
+                Object {
+                  "@media screen": Object {
+                    "borderRadius": 45,
+                    "height": 90,
+                    "width": 90,
+                  },
+                  "borderColor": "#e5e5ea",
+                  "borderRadius": 60,
+                  "borderStyle": "solid",
+                  "borderWidth": 1,
+                  "display": "flex",
+                  "height": 120,
+                  "marginRight": 20,
+                  "objectFit": "contain",
+                  "width": 120,
+                }
+              }
+            />
+            <VIEW
+              style={
+                Object {
+                  "display": "flex",
+                  "flexDirection": "column",
+                }
+              }
+            >
+              <VIEW
+                style={
+                  Object {
+                    "display": "flex",
+                    "flexDirection": "row",
+                  }
+                }
+              >
+                <TEXT
+                  style={
+                    Object {
+                      "@media print": Object {
+                        "fontSize": 12,
+                      },
+                      "fontSize": 16,
+                      "fontWeight": 700,
+                      "marginBottom": 5,
+                    }
+                  }
+                >
+                  Company Information
+                </TEXT>
+              </VIEW>
+              <VIEW
+                style={
+                  Object {
+                    "display": "flex",
+                    "flexDirection": "column",
+                    "paddingRight": 10,
+                  }
+                }
+              >
+                <TEXT
+                  style={
+                    Object {
+                      "@media print": Object {
+                        "fontSize": 10,
+                      },
+                      "display": "flex",
+                      "fontSize": 14,
+                    }
+                  }
+                />
+                <TEXT
+                  style={
+                    Object {
+                      "@media print": Object {
+                        "fontSize": 10,
+                      },
+                      "display": "flex",
+                      "fontSize": 14,
+                    }
+                  }
+                />
+                <TEXT
+                  style={
+                    Object {
+                      "@media print": Object {
+                        "fontSize": 10,
+                      },
+                      "display": "flex",
+                      "fontSize": 14,
+                    }
+                  }
+                />
+                <TEXT
+                  style={
+                    Object {
+                      "@media print": Object {
+                        "fontSize": 10,
+                      },
+                      "display": "flex",
+                      "fontSize": 14,
+                    }
+                  }
+                />
+              </VIEW>
+            </VIEW>
+          </VIEW>
+        </VIEW>
+        <VIEW
+          style={
+            Object {
+              "display": "flex",
+              "flexDirection": "column",
+            }
+          }
+        >
+          <VIEW
+            style={
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+              }
+            }
+          >
+            <TEXT
+              style={
+                Object {
+                  "@media print": Object {
+                    "fontSize": 12,
+                  },
+                  "fontSize": 16,
+                  "fontWeight": 700,
+                  "marginBottom": 5,
+                }
+              }
+            >
+              Customer Information
+            </TEXT>
+          </VIEW>
+          <VIEW
+            style={
+              Object {
+                "display": "flex",
+                "flexDirection": "column",
+                "paddingRight": 10,
+              }
+            }
+          >
+            <TEXT
+              style={
+                Object {
+                  "@media print": Object {
+                    "fontSize": 10,
+                  },
+                  "display": "flex",
+                  "fontSize": 14,
+                }
+              }
+            >
+              Name
+            </TEXT>
+            <TEXT
+              style={
+                Object {
+                  "@media print": Object {
+                    "fontSize": 10,
+                  },
+                  "display": "flex",
+                  "fontSize": 14,
+                }
+              }
+            >
+              A1
+            </TEXT>
+            <TEXT
+              style={
+                Object {
+                  "@media print": Object {
+                    "fontSize": 10,
+                  },
+                  "display": "flex",
+                  "fontSize": 14,
+                }
+              }
+            >
+              A2
+            </TEXT>
+            <TEXT
+              style={
+                Object {
+                  "@media print": Object {
+                    "fontSize": 10,
+                  },
+                  "display": "flex",
+                  "fontSize": 14,
+                }
+              }
+            >
+              A3
+            </TEXT>
+          </VIEW>
+        </VIEW>
+      </VIEW>
+      <VIEW
+        style={
+          Object {
+            "@media print": Object {
+              "marginBottom": 5,
+              "marginTop": 5,
+            },
+            "borderColor": "#b7bbbf",
+            "borderStyle": "solid",
+            "borderWidth": 1,
+            "display": "block",
+            "marginBottom": 10,
+            "marginTop": 10,
+          }
+        }
+      />
+      <TEXT
+        style={
+          Object {
+            "@media print": Object {
+              "fontSize": 12,
+            },
+            "fontSize": 16,
+            "fontWeight": 700,
+            "marginBottom": 5,
+          }
+        }
+      >
+        Parts Details
+      </TEXT>
+      <VIEW
+        style={
+          Object {
+            "display": "table",
+            "width": "100%",
+          }
+        }
+        withSeparator={true}
+      >
+        <VIEW
+          style={
+            Object {
+              "display": "table-row",
+              "flexDirection": "row",
+            }
+          }
+        >
+          <TEXT
+            style={
+              Object {
+                "@media print": Object {
+                  "fontSize": 11,
+                  "fontWeight": 600,
+                  "padding": 7,
+                  "width": "20%",
+                },
+                "backgroundColor": "#fb5447",
+                "borderColor": "#fff",
+                "borderRightWidth": 5,
+                "borderStyle": "solid",
+                "color": "#fff",
+                "display": "table-cell",
+                "fontSize": 14,
+                "fontWeight": 700,
+                "padding": 10,
+              }
+            }
+          >
+            Item
+          </TEXT>
+          <TEXT
+            style={
+              Object {
+                "@media print": Object {
+                  "fontSize": 11,
+                  "fontWeight": 600,
+                  "padding": 7,
+                  "width": "20%",
+                },
+                "backgroundColor": "#fb5447",
+                "borderColor": "#fff",
+                "borderRightWidth": 5,
+                "borderStyle": "solid",
+                "color": "#fff",
+                "display": "table-cell",
+                "fontSize": 14,
+                "fontWeight": 700,
+                "padding": 10,
+              }
+            }
+          >
+            Description
+          </TEXT>
+          <TEXT
+            style={
+              Object {
+                "@media print": Object {
+                  "fontSize": 11,
+                  "fontWeight": 600,
+                  "padding": 7,
+                  "width": "20%",
+                },
+                "backgroundColor": "#fb5447",
+                "borderColor": "#fff",
+                "borderRightWidth": 5,
+                "borderStyle": "solid",
+                "color": "#fff",
+                "display": "table-cell",
+                "fontSize": 14,
+                "fontWeight": 700,
+                "padding": 10,
+              }
+            }
+          >
+            Unit Cost
+          </TEXT>
+          <TEXT
+            style={
+              Object {
+                "@media print": Object {
+                  "fontSize": 11,
+                  "fontWeight": 600,
+                  "padding": 7,
+                  "width": "20%",
+                },
+                "backgroundColor": "#fb5447",
+                "borderColor": "#fff",
+                "borderRightWidth": 5,
+                "borderStyle": "solid",
+                "color": "#fff",
+                "display": "table-cell",
+                "fontSize": 14,
+                "fontWeight": 700,
+                "padding": 10,
+              }
+            }
+          >
+            Quantity
+          </TEXT>
+          <TEXT
+            style={
+              Object {
+                "@media print": Object {
+                  "fontSize": 11,
+                  "fontWeight": 600,
+                  "padding": 7,
+                  "width": "20%",
+                },
+                "backgroundColor": "#fb5447",
+                "borderColor": "#fff",
+                "borderRightWidth": 5,
+                "borderStyle": "solid",
+                "color": "#fff",
+                "display": "table-cell",
+                "fontSize": 14,
+                "fontWeight": 700,
+                "padding": 10,
+              }
+            }
+          >
+            Total
+          </TEXT>
+        </VIEW>
+        <VIEW
+          style={
+            Object {
+              "display": "table-row-group",
+            }
+          }
+        >
+          <VIEW
+            key="2"
+            style={
+              Object {
+                "display": "table-row",
+                "flexDirection": "row",
+              }
+            }
+          >
+            <TEXT
+              style={
+                Object {
+                  "@media print": Object {
+                    "fontSize": 10,
+                    "width": "20%",
+                  },
+                  "borderBottom": "1px solid #e5e5ea",
+                  "display": "table-cell",
+                  "padding": 10,
+                  "paddingLeft": 5,
+                }
+              }
+            >
+              1
+            </TEXT>
+            <TEXT
+              style={
+                Object {
+                  "@media print": Object {
+                    "fontSize": 10,
+                    "width": "20%",
+                  },
+                  "borderBottom": "1px solid #e5e5ea",
+                  "display": "table-cell",
+                  "padding": 10,
+                  "paddingLeft": 5,
+                }
+              }
+            >
+              Name
+            </TEXT>
+            <TEXT
+              style={
+                Object {
+                  "@media print": Object {
+                    "fontSize": 10,
+                    "width": "20%",
+                  },
+                  "borderBottom": "1px solid #e5e5ea",
+                  "display": "table-cell",
+                  "padding": 10,
+                  "paddingLeft": 5,
+                }
+              }
+            >
+              1
+               
+              0
+            </TEXT>
+            <TEXT
+              style={
+                Object {
+                  "@media print": Object {
+                    "fontSize": 10,
+                    "width": "20%",
+                  },
+                  "borderBottom": "1px solid #e5e5ea",
+                  "display": "table-cell",
+                  "padding": 10,
+                  "paddingLeft": 5,
+                }
+              }
+            >
+              109
+            </TEXT>
+            <TEXT
+              style={
+                Object {
+                  "@media print": Object {
+                    "fontSize": 10,
+                    "width": "20%",
+                  },
+                  "borderBottom": "1px solid #e5e5ea",
+                  "display": "table-cell",
+                  "padding": 10,
+                  "paddingRight": 5,
+                  "textAlign": "right",
+                }
+              }
+            >
+              1
+               
+              NaN
+            </TEXT>
+          </VIEW>
+        </VIEW>
+      </VIEW>
+      <VIEW
+        style={
+          Object {
+            "alignItems": "center",
+            "display": "flex",
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+          }
+        }
+      >
+        <VIEW
+          style={
+            Object {
+              "@media print": Object {
+                "width": "50%",
+              },
+              "display": "flex",
+              "flexDirection": "row",
+              "justifyContent": "flex-end",
+            }
+          }
+        >
+          <TEXT
+            style={
+              Object {
+                "@media print": Object {
+                  "fontSize": 10,
+                },
+                "display": "flex",
+                "fontSize": 14,
+                "fontWeight": 600,
+                "marginRight": 5,
+              }
+            }
+          >
+             
+          </TEXT>
+        </VIEW>
+        <VIEW
+          style={
+            Object {
+              "@media print": Object {
+                "width": "50%",
+              },
+              "display": "flex",
+              "flexDirection": "row",
+              "justifyContent": "flex-end",
+            }
+          }
+        >
+          <VIEW
+            style={
+              Object {
+                "@media print": Object {
+                  "marginTop": 5,
+                  "padding": 5,
+                  "textAlign": "left",
+                  "width": 300,
+                },
+                "backgroundColor": "#f1f5f6",
+                "display": "table",
+                "flexDirection": "row",
+                "justifyContent": "flex-end",
+                "marginTop": 10,
+                "padding": 10,
+                "textAlign": "right",
+                "width": 380,
+              }
+            }
+          >
+            <VIEW
+              style={
+                Object {
+                  "display": "table-row-group",
+                  "textAlign": "right",
+                }
+              }
+            >
+              <VIEW
+                style={
+                  Object {
+                    "display": "table-row",
+                    "flexDirection": "row",
+                  }
+                }
+              >
+                <TEXT
+                  style={
+                    Object {
+                      "@media print": Object {
+                        "fontSize": 10,
+                      },
+                      "display": "table-cell",
+                      "fontSize": 14,
+                      "fontWeight": 600,
+                      "paddingBottom": 5,
+                      "paddingTop": 5,
+                      "width": "75%",
+                    }
+                  }
+                >
+                  Sub Total
+                </TEXT>
+                <TEXT
+                  style={
+                    Object {
+                      "@media print": Object {
+                        "fontSize": 10,
+                      },
+                      "display": "table-cell",
+                      "fontSize": 14,
+                      "paddingBottom": 5,
+                      "paddingTop": 5,
+                      "textAlign": "right",
+                      "width": "25%",
+                    }
+                  }
+                >
+                  1
+                   
+                  100.00
+                </TEXT>
+              </VIEW>
+              <VIEW
+                style={
+                  Object {
+                    "display": "table-row",
+                    "flexDirection": "row",
+                  }
+                }
+              >
+                <TEXT
+                  style={
+                    Object {
+                      "@media print": Object {
+                        "fontSize": 10,
+                      },
+                      "display": "table-cell",
+                      "fontSize": 14,
+                      "fontWeight": 600,
+                      "paddingBottom": 5,
+                      "paddingTop": 5,
+                      "width": "75%",
+                    }
+                  }
+                >
+                  Sales Tax
+                </TEXT>
+                <TEXT
+                  style={
+                    Object {
+                      "@media print": Object {
+                        "fontSize": 10,
+                      },
+                      "display": "table-cell",
+                      "fontSize": 14,
+                      "paddingBottom": 5,
+                      "paddingTop": 5,
+                      "textAlign": "right",
+                      "width": "25%",
+                    }
+                  }
+                >
+                  1
+                   
+                  101.00
+                </TEXT>
+              </VIEW>
+              <VIEW
+                style={
+                  Object {
+                    "display": "table-row",
+                    "flexDirection": "row",
+                  }
+                }
+              >
+                <TEXT
+                  style={
+                    Object {
+                      "@media print": Object {
+                        "fontSize": 10,
+                      },
+                      "display": "table-cell",
+                      "fontSize": 14,
+                      "fontWeight": 600,
+                      "paddingBottom": 5,
+                      "paddingTop": 5,
+                      "width": "75%",
+                    }
+                  }
+                >
+                  Shipping Costs
+                </TEXT>
+                <TEXT
+                  style={
+                    Object {
+                      "@media print": Object {
+                        "fontSize": 10,
+                      },
+                      "display": "table-cell",
+                      "fontSize": 14,
+                      "paddingBottom": 5,
+                      "paddingTop": 5,
+                      "textAlign": "right",
+                      "width": "25%",
+                    }
+                  }
+                >
+                  1
+                   
+                  102.00
+                </TEXT>
+              </VIEW>
+              <VIEW
+                style={
+                  Object {
+                    "display": "table-row",
+                    "flexDirection": "row",
+                  }
+                }
+              >
+                <TEXT
+                  style={
+                    Object {
+                      "@media print": Object {
+                        "fontSize": 10,
+                      },
+                      "display": "table-cell",
+                      "fontSize": 14,
+                      "fontWeight": 600,
+                      "paddingBottom": 5,
+                      "paddingTop": 5,
+                      "width": "75%",
+                    }
+                  }
+                >
+                  Other Costs
+                </TEXT>
+                <TEXT
+                  style={
+                    Object {
+                      "@media print": Object {
+                        "fontSize": 10,
+                      },
+                      "display": "table-cell",
+                      "fontSize": 14,
+                      "paddingBottom": 5,
+                      "paddingTop": 5,
+                      "textAlign": "right",
+                      "width": "25%",
+                    }
+                  }
+                >
+                  1
+                   
+                  103.00
+                </TEXT>
+              </VIEW>
+              <VIEW
+                style={
+                  Object {
+                    "backgroundColor": "#f1f5f6",
+                    "display": "table-row",
+                    "flexDirection": "row",
+                  }
+                }
+              >
+                <TEXT
+                  style={
+                    Object {
+                      "@media print": Object {
+                        "fontSize": 10,
+                      },
+                      "display": "table-cell",
+                      "fontSize": 14,
+                      "fontWeight": 600,
+                      "paddingBottom": 5,
+                      "paddingTop": 5,
+                      "width": "75%",
+                    }
+                  }
+                >
+                  Total Parts Cost
+                </TEXT>
+                <TEXT
+                  style={
+                    Object {
+                      "@media print": Object {
+                        "fontSize": 10,
+                      },
+                      "display": "table-cell",
+                      "fontSize": 14,
+                      "paddingBottom": 5,
+                      "paddingTop": 5,
+                      "textAlign": "right",
+                      "width": "25%",
+                    }
+                  }
+                >
+                  1
+                   
+                  104.00
+                </TEXT>
+              </VIEW>
+            </VIEW>
+          </VIEW>
+        </VIEW>
+      </VIEW>
+      <TEXT
+        style={
+          Object {
+            "@media print": Object {
+              "fontSize": 12,
+            },
+            "fontSize": 16,
+            "fontWeight": 700,
+            "marginBottom": 5,
+          }
+        }
+      >
+        Additional Cost Details
+      </TEXT>
+      <VIEW
+        style={
+          Object {
+            "display": "table",
+            "width": "100%",
+          }
+        }
+        withSeparator={true}
+      >
+        <VIEW
+          style={
+            Object {
+              "display": "table-row",
+              "flexDirection": "row",
+            }
+          }
+        >
+          <TEXT
+            style={
+              Object {
+                "@media print": Object {
+                  "fontSize": 11,
+                  "fontWeight": 600,
+                  "padding": 7,
+                  "width": "25%",
+                },
+                "backgroundColor": "#fb5447",
+                "borderColor": "#fff",
+                "borderRightWidth": 5,
+                "borderStyle": "solid",
+                "color": "#fff",
+                "display": "table-cell",
+                "fontSize": 14,
+                "fontWeight": 700,
+                "padding": 10,
+              }
+            }
+          >
+            Item
+          </TEXT>
+          <TEXT
+            style={
+              Object {
+                "@media print": Object {
+                  "fontSize": 11,
+                  "fontWeight": 600,
+                  "padding": 7,
+                  "width": "25%",
+                },
+                "backgroundColor": "#fb5447",
+                "borderColor": "#fff",
+                "borderRightWidth": 5,
+                "borderStyle": "solid",
+                "color": "#fff",
+                "display": "table-cell",
+                "fontSize": 14,
+                "fontWeight": 700,
+                "padding": 10,
+              }
+            }
+          >
+            Description
+          </TEXT>
+          <TEXT
+            style={
+              Object {
+                "@media print": Object {
+                  "fontSize": 11,
+                  "fontWeight": 600,
+                  "padding": 7,
+                  "width": "25%",
+                },
+                "backgroundColor": "#fb5447",
+                "borderColor": "#fff",
+                "borderRightWidth": 5,
+                "borderStyle": "solid",
+                "color": "#fff",
+                "display": "table-cell",
+                "fontSize": 14,
+                "fontWeight": 700,
+                "padding": 10,
+              }
+            }
+          >
+            Category
+          </TEXT>
+          <TEXT
+            style={
+              Object {
+                "@media print": Object {
+                  "fontSize": 11,
+                  "fontWeight": 600,
+                  "padding": 7,
+                  "width": "25%",
+                },
+                "backgroundColor": "#fb5447",
+                "borderColor": "#fff",
+                "borderRightWidth": 5,
+                "borderStyle": "solid",
+                "color": "#fff",
+                "display": "table-cell",
+                "fontSize": 14,
+                "fontWeight": 700,
+                "padding": 10,
+              }
+            }
+          >
+            Cost
+          </TEXT>
+        </VIEW>
+        <VIEW
+          style={
+            Object {
+              "display": "table-row-group",
+            }
+          }
+        >
+          <VIEW
+            key="1"
+            style={
+              Object {
+                "display": "table-row",
+                "flexDirection": "row",
+              }
+            }
+          >
+            <TEXT
+              style={
+                Object {
+                  "@media print": Object {
+                    "fontSize": 10,
+                    "width": "25%",
+                  },
+                  "borderBottom": "1px solid #e5e5ea",
+                  "display": "table-cell",
+                  "padding": 10,
+                  "paddingLeft": 5,
+                }
+              }
+            >
+              1
+            </TEXT>
+            <TEXT
+              style={
+                Object {
+                  "@media print": Object {
+                    "fontSize": 10,
+                    "width": "25%",
+                  },
+                  "borderBottom": "1px solid #e5e5ea",
+                  "display": "table-cell",
+                  "padding": 10,
+                  "paddingLeft": 5,
+                }
+              }
+            >
+              info
+            </TEXT>
+            <TEXT
+              style={
+                Object {
+                  "@media print": Object {
+                    "fontSize": 10,
+                    "width": "25%",
+                  },
+                  "borderBottom": "1px solid #e5e5ea",
+                  "display": "table-cell",
+                  "padding": 10,
+                  "paddingLeft": 5,
+                }
+              }
+            >
+               
+              Category
+            </TEXT>
+            <TEXT
+              style={
+                Object {
+                  "@media print": Object {
+                    "fontSize": 10,
+                    "width": "25%",
+                  },
+                  "borderBottom": "1px solid #e5e5ea",
+                  "display": "table-cell",
+                  "padding": 10,
+                  "paddingRight": 5,
+                  "textAlign": "right",
+                }
+              }
+            >
+              1
+               
+              110.00
+            </TEXT>
+          </VIEW>
+        </VIEW>
+      </VIEW>
+      <VIEW
+        style={
+          Object {
+            "display": "flex",
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+          }
+        }
+      >
+        <VIEW
+          style={
+            Object {
+              "@media print": Object {
+                "width": "50%",
+              },
+              "display": "flex",
+              "flexDirection": "row",
+              "justifyContent": "flex-end",
+            }
+          }
+        >
+          <TEXT
+            style={
+              Object {
+                "@media print": Object {
+                  "fontSize": 10,
+                },
+                "display": "flex",
+                "fontSize": 14,
+                "fontWeight": 600,
+                "marginRight": 5,
+              }
+            }
+          >
+             
+          </TEXT>
+        </VIEW>
+        <VIEW
+          style={
+            Object {
+              "@media print": Object {
+                "width": "50%",
+              },
+              "display": "flex",
+              "flexDirection": "row",
+              "justifyContent": "flex-end",
+            }
+          }
+        >
+          <VIEW
+            style={
+              Object {
+                "@media print": Object {
+                  "marginTop": 5,
+                  "padding": 5,
+                  "textAlign": "left",
+                  "width": 300,
+                },
+                "backgroundColor": "#f1f5f6",
+                "display": "table",
+                "flexDirection": "row",
+                "justifyContent": "flex-end",
+                "marginTop": 10,
+                "padding": 10,
+                "textAlign": "right",
+                "width": 380,
+              }
+            }
+          >
+            <VIEW
+              style={
+                Object {
+                  "display": "table-row-group",
+                  "textAlign": "right",
+                }
+              }
+            >
+              <VIEW
+                style={
+                  Object {
+                    "display": "table-row",
+                    "flexDirection": "row",
+                  }
+                }
+              >
+                <TEXT
+                  style={
+                    Object {
+                      "@media print": Object {
+                        "fontSize": 10,
+                      },
+                      "display": "table-cell",
+                      "fontSize": 14,
+                      "fontWeight": 600,
+                      "paddingBottom": 5,
+                      "paddingTop": 5,
+                      "width": "75%",
+                    }
+                  }
+                >
+                  Subtotal
+                </TEXT>
+                <TEXT
+                  style={
+                    Object {
+                      "@media print": Object {
+                        "fontSize": 10,
+                      },
+                      "display": "table-cell",
+                      "fontSize": 14,
+                      "paddingBottom": 5,
+                      "paddingTop": 5,
+                      "textAlign": "right",
+                      "width": "25%",
+                    }
+                  }
+                >
+                  1
+                   
+                  105.00
+                </TEXT>
+              </VIEW>
+              <VIEW
+                style={
+                  Object {
+                    "display": "table-row",
+                    "flexDirection": "row",
+                  }
+                }
+              >
+                <TEXT
+                  style={
+                    Object {
+                      "@media print": Object {
+                        "fontSize": 10,
+                      },
+                      "display": "table-cell",
+                      "fontSize": 14,
+                      "fontWeight": 600,
+                      "paddingBottom": 5,
+                      "paddingTop": 5,
+                      "width": "75%",
+                    }
+                  }
+                >
+                  Other Costs
+                </TEXT>
+                <TEXT
+                  style={
+                    Object {
+                      "@media print": Object {
+                        "fontSize": 10,
+                      },
+                      "display": "table-cell",
+                      "fontSize": 14,
+                      "paddingBottom": 5,
+                      "paddingTop": 5,
+                      "textAlign": "right",
+                      "width": "25%",
+                    }
+                  }
+                >
+                  1
+                   
+                  106.00
+                </TEXT>
+              </VIEW>
+              <VIEW
+                style={
+                  Object {
+                    "display": "table-row",
+                    "flexDirection": "row",
+                  }
+                }
+              >
+                <TEXT
+                  style={
+                    Object {
+                      "@media print": Object {
+                        "fontSize": 10,
+                      },
+                      "display": "table-cell",
+                      "fontSize": 14,
+                      "fontWeight": 600,
+                      "paddingBottom": 5,
+                      "paddingTop": 5,
+                      "width": "75%",
+                    }
+                  }
+                >
+                   
+                </TEXT>
+                <TEXT
+                  style={
+                    Object {
+                      "@media print": Object {
+                        "fontSize": 10,
+                      },
+                      "display": "table-cell",
+                      "fontSize": 14,
+                      "paddingBottom": 5,
+                      "paddingTop": 5,
+                      "textAlign": "right",
+                      "width": "25%",
+                    }
+                  }
+                >
+                  -
+                </TEXT>
+              </VIEW>
+              <VIEW
+                style={
+                  Object {
+                    "display": "table-row",
+                    "flexDirection": "row",
+                  }
+                }
+              >
+                <TEXT
+                  style={
+                    Object {
+                      "@media print": Object {
+                        "fontSize": 10,
+                      },
+                      "display": "table-cell",
+                      "fontSize": 14,
+                      "fontWeight": 600,
+                      "paddingBottom": 5,
+                      "paddingTop": 5,
+                      "width": "75%",
+                    }
+                  }
+                >
+                  Paid
+                </TEXT>
+                <TEXT
+                  style={
+                    Object {
+                      "@media print": Object {
+                        "fontSize": 10,
+                      },
+                      "display": "table-cell",
+                      "fontSize": 14,
+                      "paddingBottom": 5,
+                      "paddingTop": 5,
+                      "textAlign": "right",
+                      "width": "25%",
+                    }
+                  }
+                >
+                  1
+                   
+                  107.00
+                </TEXT>
+              </VIEW>
+              <VIEW
+                style={
+                  Object {
+                    "backgroundColor": "#f1f5f6",
+                    "display": "table-row",
+                    "flexDirection": "row",
+                  }
+                }
+              >
+                <TEXT
+                  style={
+                    Object {
+                      "@media print": Object {
+                        "fontSize": 10,
+                      },
+                      "display": "table-cell",
+                      "fontSize": 14,
+                      "fontWeight": 600,
+                      "paddingBottom": 5,
+                      "paddingTop": 5,
+                      "width": "75%",
+                    }
+                  }
+                >
+                  Total Additional Cost
+                </TEXT>
+                <TEXT
+                  style={
+                    Object {
+                      "@media print": Object {
+                        "fontSize": 10,
+                      },
+                      "display": "table-cell",
+                      "fontSize": 14,
+                      "paddingBottom": 5,
+                      "paddingTop": 5,
+                      "textAlign": "right",
+                      "width": "25%",
+                    }
+                  }
+                >
+                  1
+                   
+                  108.00
+                </TEXT>
+              </VIEW>
+            </VIEW>
+          </VIEW>
+        </VIEW>
+      </VIEW>
+      <VIEW
+        style={
+          Object {
+            "@media print": Object {
+              "marginBottom": 20,
+              "marginTop": 10,
+            },
+            "display": "block",
+            "marginBottom": 20,
+            "marginTop": 10,
+          }
+        }
+      />
+      <VIEW
+        style={
+          Object {
+            "display": "flex",
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+          }
+        }
+      >
+        <VIEW
+          style={
+            Object {
+              "display": "flex",
+              "flexDirection": "column",
+            }
+          }
+        >
+          <VIEW
+            style={
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+              }
+            }
+          >
+            <IMAGE
+              src="urlPath"
+              style={
+                Object {
+                  "backgroundImage": "url(urlPath)",
+                  "backgroundRepeat": "no-repeat",
+                  "backgroundSize": "contain",
+                  "display": "flex",
+                  "height": "auto",
+                  "width": 150,
+                }
+              }
+            />
+          </VIEW>
+          <VIEW
+            style={
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+              }
+            }
+          >
+            <TEXT
+              style={
+                Object {
+                  "@media print": Object {
+                    "fontSize": 10,
+                  },
+                  "display": "flex",
+                  "fontSize": 14,
+                  "fontWeight": 600,
+                  "marginRight": 5,
+                }
+              }
+            >
+              Signature
+            </TEXT>
+          </VIEW>
+          <VIEW
+            style={
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+              }
+            }
+          >
+            <TEXT
+              style={
+                Object {
+                  "@media print": Object {
+                    "fontSize": 10,
+                  },
+                  "display": "flex",
+                  "fontSize": 14,
+                }
+              }
+            >
+              Signed on -
+            </TEXT>
+          </VIEW>
+        </VIEW>
+        <VIEW
+          style={
+            Object {
+              "@media print": Object {
+                "width": "50%",
+              },
+              "display": "flex",
+              "flexDirection": "row",
+              "justifyContent": "flex-end",
+            }
+          }
+        >
+          <VIEW
+            style={
+              Object {
+                "@media print": Object {
+                  "marginTop": 5,
+                  "padding": 5,
+                  "textAlign": "left",
+                  "width": 300,
+                },
+                "backgroundColor": "#f1f5f6",
+                "display": "table",
+                "flexDirection": "row",
+                "justifyContent": "flex-end",
+                "marginTop": 10,
+                "padding": 10,
+                "textAlign": "right",
+                "width": 380,
+              }
+            }
+          >
+            <VIEW
+              style={
+                Object {
+                  "display": "table-row-group",
+                  "textAlign": "right",
+                }
+              }
+            >
+              <VIEW
+                style={
+                  Object {
+                    "display": "table-row",
+                    "flexDirection": "row",
+                  }
+                }
+              >
+                <TEXT
+                  style={
+                    Object {
+                      "@media print": Object {
+                        "fontSize": 12,
+                      },
+                      "fontSize": 16,
+                      "fontWeight": 700,
+                      "marginBottom": 5,
+                    }
+                  }
+                >
+                  Invoice Summary
+                </TEXT>
+              </VIEW>
+              <VIEW
+                style={
+                  Object {
+                    "display": "table-row",
+                    "flexDirection": "row",
+                  }
+                }
+              >
+                <TEXT
+                  style={
+                    Object {
+                      "@media print": Object {
+                        "fontSize": 10,
+                      },
+                      "display": "table-cell",
+                      "fontSize": 14,
+                      "fontWeight": 600,
+                      "paddingBottom": 5,
+                      "paddingTop": 5,
+                      "width": "75%",
+                    }
+                  }
+                >
+                  Parts
+                </TEXT>
+                <TEXT
+                  style={
+                    Object {
+                      "@media print": Object {
+                        "fontSize": 10,
+                      },
+                      "display": "table-cell",
+                      "fontSize": 14,
+                      "paddingBottom": 5,
+                      "paddingTop": 5,
+                      "textAlign": "right",
+                      "width": "25%",
+                    }
+                  }
+                >
+                  1
+                   
+                  104.00
+                </TEXT>
+              </VIEW>
+              <VIEW
+                style={
+                  Object {
+                    "display": "table-row",
+                    "flexDirection": "row",
+                  }
+                }
+              >
+                <TEXT
+                  style={
+                    Object {
+                      "@media print": Object {
+                        "fontSize": 10,
+                      },
+                      "display": "table-cell",
+                      "fontSize": 14,
+                      "fontWeight": 600,
+                      "paddingBottom": 5,
+                      "paddingTop": 5,
+                      "width": "75%",
+                    }
+                  }
+                >
+                  Additional Costs
+                </TEXT>
+                <TEXT
+                  style={
+                    Object {
+                      "@media print": Object {
+                        "fontSize": 10,
+                      },
+                      "display": "table-cell",
+                      "fontSize": 14,
+                      "paddingBottom": 5,
+                      "paddingTop": 5,
+                      "textAlign": "right",
+                      "width": "25%",
+                    }
+                  }
+                >
+                  1
+                   
+                  108.00
+                </TEXT>
+              </VIEW>
+              <VIEW
+                style={
+                  Object {
+                    "display": "table-row",
+                    "flexDirection": "row",
+                  }
+                }
+              >
+                <TEXT
+                  style={
+                    Object {
+                      "@media print": Object {
+                        "fontSize": 10,
+                      },
+                      "display": "table-cell",
+                      "fontSize": 14,
+                      "fontWeight": 600,
+                      "paddingBottom": 5,
+                      "paddingTop": 5,
+                      "width": "75%",
+                    }
+                  }
+                >
+                  Total
+                </TEXT>
+                <TEXT
+                  style={
+                    Object {
+                      "@media print": Object {
+                        "fontSize": 10,
+                      },
+                      "display": "table-cell",
+                      "fontSize": 14,
+                      "paddingBottom": 5,
+                      "paddingTop": 5,
+                      "textAlign": "right",
+                      "width": "25%",
+                    }
+                  }
+                >
+                  1
+                   
+                  212.00
+                </TEXT>
+              </VIEW>
+            </VIEW>
+          </VIEW>
+        </VIEW>
+      </VIEW>
+    </PAGE>
+  </DOCUMENT>
+</WorkOrderInvoicePDF>
+`;
+
+exports[`<WorkOrderInvoicePDF /> should render correctly with mandatory props 1`] = `
+<WorkOrderInvoicePDF
+  woInvoice={
+    Object {
+      "additionalCostDetails": Array [],
+      "companyAddress": Object {},
+      "customerDetails": Object {},
+      "parts": Array [
+        Object {
+          "part": Object {
+            "id": "1",
+            "name": "Name",
+          },
+        },
+      ],
+    }
+  }
+>
+  <DOCUMENT>
+    <PAGE
+      size="A4"
+      style={
+        Object {
+          "@media print": Object {
+            "padding": 10,
+          },
+          "fontFamily": "Open sans",
+          "padding": 20,
+        }
+      }
+      wrap={true}
+    >
+      <VIEW
+        style={
+          Object {
+            "display": "flex",
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+          }
+        }
+      >
+        <VIEW
+          style={
+            Object {
+              "display": "flex",
+            }
+          }
+        >
+          <VIEW
+            style={
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+              }
+            }
+          >
+            <TEXT
+              style={
+                Object {
+                  "@media print": Object {
+                    "fontSize": 12,
+                  },
+                  "fontSize": 16,
+                  "letterSpacing": 1.5,
+                  "textTransform": "uppercase",
+                }
+              }
+            >
+              Invoice#:
+            </TEXT>
+            <TEXT
+              style={
+                Object {
+                  "@media print": Object {
+                    "fontSize": 12,
+                  },
+                  "color": "#fb5447",
+                  "fontSize": 16,
+                  "fontWeight": 600,
+                }
+              }
+            />
+          </VIEW>
+        </VIEW>
+        <VIEW
+          style={
+            Object {
+              "display": "flex",
+            }
+          }
+        >
+          <VIEW
+            style={
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+              }
+            }
+          >
+            <TEXT
+              style={
+                Object {
+                  "@media print": Object {
+                    "fontSize": 10,
+                  },
+                  "display": "flex",
+                  "fontSize": 14,
+                  "fontWeight": 600,
+                  "marginRight": 5,
+                }
+              }
+            >
+              Invoice Date:
+            </TEXT>
+            <TEXT
+              style={
+                Object {
+                  "@media print": Object {
+                    "fontSize": 10,
+                  },
+                  "display": "flex",
+                  "fontSize": 14,
+                }
+              }
+            >
+               
+            </TEXT>
+          </VIEW>
+        </VIEW>
+      </VIEW>
+      <VIEW
+        style={
+          Object {
+            "@media print": Object {
+              "marginBottom": 5,
+              "marginTop": 5,
+            },
+            "borderColor": "#b7bbbf",
+            "borderStyle": "solid",
+            "borderWidth": 1,
+            "display": "block",
+            "marginBottom": 10,
+            "marginTop": 10,
+          }
+        }
+      />
+      <VIEW
+        style={
+          Object {
+            "display": "flex",
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+          }
+        }
+      >
+        <VIEW
+          style={
+            Object {
+              "display": "flex",
+            }
+          }
+        >
+          <TEXT
+            style={
+              Object {
+                "@media print": Object {
+                  "fontSize": 12,
+                },
+                "fontSize": 16,
+                "fontWeight": 700,
+                "marginBottom": 5,
+              }
+            }
+          >
+            Work Order Details
+          </TEXT>
+        </VIEW>
+        <VIEW
+          style={
+            Object {
+              "display": "flex",
+            }
+          }
+        />
+      </VIEW>
+      <VIEW
+        style={
+          Object {
+            "display": "flex",
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+          }
+        }
+      >
+        <VIEW
+          style={
+            Object {
+              "display": "flex",
+              "flexDirection": "column",
+            }
+          }
+        >
+          <VIEW
+            style={
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+              }
+            }
+          >
+            <TEXT
+              style={
+                Object {
+                  "@media print": Object {
+                    "fontSize": 10,
+                  },
+                  "display": "flex",
+                  "fontSize": 14,
+                  "fontWeight": 600,
+                  "marginRight": 5,
+                }
+              }
+            >
+              Title:
+            </TEXT>
+            <TEXT
+              style={
+                Object {
+                  "@media print": Object {
+                    "fontSize": 10,
+                  },
+                  "display": "flex",
+                  "fontSize": 14,
+                }
+              }
+            />
+          </VIEW>
+          <VIEW
+            style={
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+              }
+            }
+          >
+            <TEXT
+              style={
+                Object {
+                  "@media print": Object {
+                    "fontSize": 10,
+                  },
+                  "display": "flex",
+                  "fontSize": 14,
+                  "fontWeight": 600,
+                  "marginRight": 5,
+                }
+              }
+            >
+              Description:
+            </TEXT>
+            <TEXT
+              style={
+                Object {
+                  "@media print": Object {
+                    "fontSize": 10,
+                  },
+                  "display": "flex",
+                  "fontSize": 14,
+                  "marginRight": 50,
+                  "paddingRight": 20,
+                }
+              }
+            />
+          </VIEW>
+        </VIEW>
+      </VIEW>
+      <VIEW
+        style={
+          Object {
+            "@media print": Object {
+              "marginBottom": 5,
+              "marginTop": 5,
+            },
+            "borderColor": "#b7bbbf",
+            "borderStyle": "solid",
+            "borderWidth": 1,
+            "display": "block",
+            "marginBottom": 10,
+            "marginTop": 10,
+          }
+        }
+      />
+      <VIEW
+        style={
+          Object {
+            "alignItems": "flex-start",
+            "display": "flex",
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "paddingRight": 10,
+          }
+        }
+      >
+        <VIEW
+          style={
+            Object {
+              "display": "flex",
+            }
+          }
+        >
+          <VIEW
+            style={
+              Object {
+                "alignItems": "flex-start",
+                "display": "flex",
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+                "paddingRight": 10,
+              }
+            }
+          >
+            <VIEW
+              style={
+                Object {
+                  "display": "flex",
+                  "flexDirection": "column",
+                }
+              }
+            >
+              <VIEW
+                style={
+                  Object {
+                    "display": "flex",
+                    "flexDirection": "row",
+                  }
+                }
+              >
+                <TEXT
+                  style={
+                    Object {
+                      "@media print": Object {
+                        "fontSize": 12,
+                      },
+                      "fontSize": 16,
+                      "fontWeight": 700,
+                      "marginBottom": 5,
+                    }
+                  }
+                >
+                  Company Information
+                </TEXT>
+              </VIEW>
+              <VIEW
+                style={
+                  Object {
+                    "display": "flex",
+                    "flexDirection": "column",
+                    "paddingRight": 10,
+                  }
+                }
+              >
+                <TEXT
+                  style={
+                    Object {
+                      "@media print": Object {
+                        "fontSize": 10,
+                      },
+                      "display": "flex",
+                      "fontSize": 14,
+                    }
+                  }
+                />
+                <TEXT
+                  style={
+                    Object {
+                      "@media print": Object {
+                        "fontSize": 10,
+                      },
+                      "display": "flex",
+                      "fontSize": 14,
+                    }
+                  }
+                />
+                <TEXT
+                  style={
+                    Object {
+                      "@media print": Object {
+                        "fontSize": 10,
+                      },
+                      "display": "flex",
+                      "fontSize": 14,
+                    }
+                  }
+                />
+                <TEXT
+                  style={
+                    Object {
+                      "@media print": Object {
+                        "fontSize": 10,
+                      },
+                      "display": "flex",
+                      "fontSize": 14,
+                    }
+                  }
+                />
+              </VIEW>
+            </VIEW>
+          </VIEW>
+        </VIEW>
+        <VIEW
+          style={
+            Object {
+              "display": "flex",
+              "flexDirection": "column",
+            }
+          }
+        >
+          <VIEW
+            style={
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+              }
+            }
+          >
+            <TEXT
+              style={
+                Object {
+                  "@media print": Object {
+                    "fontSize": 12,
+                  },
+                  "fontSize": 16,
+                  "fontWeight": 700,
+                  "marginBottom": 5,
+                }
+              }
+            >
+              Customer Information
+            </TEXT>
+          </VIEW>
+          <VIEW
+            style={
+              Object {
+                "display": "flex",
+                "flexDirection": "column",
+                "paddingRight": 10,
+              }
+            }
+          >
+            <TEXT
+              style={
+                Object {
+                  "@media print": Object {
+                    "fontSize": 10,
+                  },
+                  "display": "flex",
+                  "fontSize": 14,
+                }
+              }
+            />
+            <TEXT
+              style={
+                Object {
+                  "@media print": Object {
+                    "fontSize": 10,
+                  },
+                  "display": "flex",
+                  "fontSize": 14,
+                }
+              }
+            />
+            <TEXT
+              style={
+                Object {
+                  "@media print": Object {
+                    "fontSize": 10,
+                  },
+                  "display": "flex",
+                  "fontSize": 14,
+                }
+              }
+            />
+            <TEXT
+              style={
+                Object {
+                  "@media print": Object {
+                    "fontSize": 10,
+                  },
+                  "display": "flex",
+                  "fontSize": 14,
+                }
+              }
+            />
+          </VIEW>
+        </VIEW>
+      </VIEW>
+      <VIEW
+        style={
+          Object {
+            "@media print": Object {
+              "marginBottom": 5,
+              "marginTop": 5,
+            },
+            "borderColor": "#b7bbbf",
+            "borderStyle": "solid",
+            "borderWidth": 1,
+            "display": "block",
+            "marginBottom": 10,
+            "marginTop": 10,
+          }
+        }
+      />
+      <TEXT
+        style={
+          Object {
+            "@media print": Object {
+              "fontSize": 12,
+            },
+            "fontSize": 16,
+            "fontWeight": 700,
+            "marginBottom": 5,
+          }
+        }
+      >
+        Parts Details
+      </TEXT>
+      <VIEW
+        style={
+          Object {
+            "display": "table",
+            "width": "100%",
+          }
+        }
+        withSeparator={true}
+      >
+        <VIEW
+          style={
+            Object {
+              "display": "table-row",
+              "flexDirection": "row",
+            }
+          }
+        >
+          <TEXT
+            style={
+              Object {
+                "@media print": Object {
+                  "fontSize": 11,
+                  "fontWeight": 600,
+                  "padding": 7,
+                  "width": "20%",
+                },
+                "backgroundColor": "#fb5447",
+                "borderColor": "#fff",
+                "borderRightWidth": 5,
+                "borderStyle": "solid",
+                "color": "#fff",
+                "display": "table-cell",
+                "fontSize": 14,
+                "fontWeight": 700,
+                "padding": 10,
+              }
+            }
+          >
+            Item
+          </TEXT>
+          <TEXT
+            style={
+              Object {
+                "@media print": Object {
+                  "fontSize": 11,
+                  "fontWeight": 600,
+                  "padding": 7,
+                  "width": "20%",
+                },
+                "backgroundColor": "#fb5447",
+                "borderColor": "#fff",
+                "borderRightWidth": 5,
+                "borderStyle": "solid",
+                "color": "#fff",
+                "display": "table-cell",
+                "fontSize": 14,
+                "fontWeight": 700,
+                "padding": 10,
+              }
+            }
+          >
+            Description
+          </TEXT>
+          <TEXT
+            style={
+              Object {
+                "@media print": Object {
+                  "fontSize": 11,
+                  "fontWeight": 600,
+                  "padding": 7,
+                  "width": "20%",
+                },
+                "backgroundColor": "#fb5447",
+                "borderColor": "#fff",
+                "borderRightWidth": 5,
+                "borderStyle": "solid",
+                "color": "#fff",
+                "display": "table-cell",
+                "fontSize": 14,
+                "fontWeight": 700,
+                "padding": 10,
+              }
+            }
+          >
+            Unit Cost
+          </TEXT>
+          <TEXT
+            style={
+              Object {
+                "@media print": Object {
+                  "fontSize": 11,
+                  "fontWeight": 600,
+                  "padding": 7,
+                  "width": "20%",
+                },
+                "backgroundColor": "#fb5447",
+                "borderColor": "#fff",
+                "borderRightWidth": 5,
+                "borderStyle": "solid",
+                "color": "#fff",
+                "display": "table-cell",
+                "fontSize": 14,
+                "fontWeight": 700,
+                "padding": 10,
+              }
+            }
+          >
+            Quantity
+          </TEXT>
+          <TEXT
+            style={
+              Object {
+                "@media print": Object {
+                  "fontSize": 11,
+                  "fontWeight": 600,
+                  "padding": 7,
+                  "width": "20%",
+                },
+                "backgroundColor": "#fb5447",
+                "borderColor": "#fff",
+                "borderRightWidth": 5,
+                "borderStyle": "solid",
+                "color": "#fff",
+                "display": "table-cell",
+                "fontSize": 14,
+                "fontWeight": 700,
+                "padding": 10,
+              }
+            }
+          >
+            Total
+          </TEXT>
+        </VIEW>
+        <VIEW
+          style={
+            Object {
+              "display": "table-row-group",
+            }
+          }
+        >
+          <VIEW
+            key="1"
+            style={
+              Object {
+                "display": "table-row",
+                "flexDirection": "row",
+              }
+            }
+          >
+            <TEXT
+              style={
+                Object {
+                  "@media print": Object {
+                    "fontSize": 10,
+                    "width": "20%",
+                  },
+                  "borderBottom": "1px solid #e5e5ea",
+                  "display": "table-cell",
+                  "padding": 10,
+                  "paddingLeft": 5,
+                }
+              }
+            >
+              1
+            </TEXT>
+            <TEXT
+              style={
+                Object {
+                  "@media print": Object {
+                    "fontSize": 10,
+                    "width": "20%",
+                  },
+                  "borderBottom": "1px solid #e5e5ea",
+                  "display": "table-cell",
+                  "padding": 10,
+                  "paddingLeft": 5,
+                }
+              }
+            >
+              Name
+            </TEXT>
+            <TEXT
+              style={
+                Object {
+                  "@media print": Object {
+                    "fontSize": 10,
+                    "width": "20%",
+                  },
+                  "borderBottom": "1px solid #e5e5ea",
+                  "display": "table-cell",
+                  "padding": 10,
+                  "paddingLeft": 5,
+                }
+              }
+            >
+               
+              0
+            </TEXT>
+            <TEXT
+              style={
+                Object {
+                  "@media print": Object {
+                    "fontSize": 10,
+                    "width": "20%",
+                  },
+                  "borderBottom": "1px solid #e5e5ea",
+                  "display": "table-cell",
+                  "padding": 10,
+                  "paddingLeft": 5,
+                }
+              }
+            >
+              0
+            </TEXT>
+            <TEXT
+              style={
+                Object {
+                  "@media print": Object {
+                    "fontSize": 10,
+                    "width": "20%",
+                  },
+                  "borderBottom": "1px solid #e5e5ea",
+                  "display": "table-cell",
+                  "padding": 10,
+                  "paddingRight": 5,
+                  "textAlign": "right",
+                }
+              }
+            >
+               
+              NaN
+            </TEXT>
+          </VIEW>
+        </VIEW>
+      </VIEW>
+      <VIEW
+        style={
+          Object {
+            "alignItems": "center",
+            "display": "flex",
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+          }
+        }
+      >
+        <VIEW
+          style={
+            Object {
+              "@media print": Object {
+                "width": "50%",
+              },
+              "display": "flex",
+              "flexDirection": "row",
+              "justifyContent": "flex-end",
+            }
+          }
+        >
+          <TEXT
+            style={
+              Object {
+                "@media print": Object {
+                  "fontSize": 10,
+                },
+                "display": "flex",
+                "fontSize": 14,
+                "fontWeight": 600,
+                "marginRight": 5,
+              }
+            }
+          >
+             
+          </TEXT>
+        </VIEW>
+        <VIEW
+          style={
+            Object {
+              "@media print": Object {
+                "width": "50%",
+              },
+              "display": "flex",
+              "flexDirection": "row",
+              "justifyContent": "flex-end",
+            }
+          }
+        >
+          <VIEW
+            style={
+              Object {
+                "@media print": Object {
+                  "marginTop": 5,
+                  "padding": 5,
+                  "textAlign": "left",
+                  "width": 300,
+                },
+                "backgroundColor": "#f1f5f6",
+                "display": "table",
+                "flexDirection": "row",
+                "justifyContent": "flex-end",
+                "marginTop": 10,
+                "padding": 10,
+                "textAlign": "right",
+                "width": 380,
+              }
+            }
+          >
+            <VIEW
+              style={
+                Object {
+                  "display": "table-row-group",
+                  "textAlign": "right",
+                }
+              }
+            >
+              <VIEW
+                style={
+                  Object {
+                    "display": "table-row",
+                    "flexDirection": "row",
+                  }
+                }
+              >
+                <TEXT
+                  style={
+                    Object {
+                      "@media print": Object {
+                        "fontSize": 10,
+                      },
+                      "display": "table-cell",
+                      "fontSize": 14,
+                      "fontWeight": 600,
+                      "paddingBottom": 5,
+                      "paddingTop": 5,
+                      "width": "75%",
+                    }
+                  }
+                >
+                  Sub Total
+                </TEXT>
+                <TEXT
+                  style={
+                    Object {
+                      "@media print": Object {
+                        "fontSize": 10,
+                      },
+                      "display": "table-cell",
+                      "fontSize": 14,
+                      "paddingBottom": 5,
+                      "paddingTop": 5,
+                      "textAlign": "right",
+                      "width": "25%",
+                    }
+                  }
+                >
+                   
+                </TEXT>
+              </VIEW>
+              <VIEW
+                style={
+                  Object {
+                    "display": "table-row",
+                    "flexDirection": "row",
+                  }
+                }
+              >
+                <TEXT
+                  style={
+                    Object {
+                      "@media print": Object {
+                        "fontSize": 10,
+                      },
+                      "display": "table-cell",
+                      "fontSize": 14,
+                      "fontWeight": 600,
+                      "paddingBottom": 5,
+                      "paddingTop": 5,
+                      "width": "75%",
+                    }
+                  }
+                >
+                  Sales Tax
+                </TEXT>
+                <TEXT
+                  style={
+                    Object {
+                      "@media print": Object {
+                        "fontSize": 10,
+                      },
+                      "display": "table-cell",
+                      "fontSize": 14,
+                      "paddingBottom": 5,
+                      "paddingTop": 5,
+                      "textAlign": "right",
+                      "width": "25%",
+                    }
+                  }
+                >
+                   
+                </TEXT>
+              </VIEW>
+              <VIEW
+                style={
+                  Object {
+                    "display": "table-row",
+                    "flexDirection": "row",
+                  }
+                }
+              >
+                <TEXT
+                  style={
+                    Object {
+                      "@media print": Object {
+                        "fontSize": 10,
+                      },
+                      "display": "table-cell",
+                      "fontSize": 14,
+                      "fontWeight": 600,
+                      "paddingBottom": 5,
+                      "paddingTop": 5,
+                      "width": "75%",
+                    }
+                  }
+                >
+                  Shipping Costs
+                </TEXT>
+                <TEXT
+                  style={
+                    Object {
+                      "@media print": Object {
+                        "fontSize": 10,
+                      },
+                      "display": "table-cell",
+                      "fontSize": 14,
+                      "paddingBottom": 5,
+                      "paddingTop": 5,
+                      "textAlign": "right",
+                      "width": "25%",
+                    }
+                  }
+                >
+                   
+                </TEXT>
+              </VIEW>
+              <VIEW
+                style={
+                  Object {
+                    "display": "table-row",
+                    "flexDirection": "row",
+                  }
+                }
+              >
+                <TEXT
+                  style={
+                    Object {
+                      "@media print": Object {
+                        "fontSize": 10,
+                      },
+                      "display": "table-cell",
+                      "fontSize": 14,
+                      "fontWeight": 600,
+                      "paddingBottom": 5,
+                      "paddingTop": 5,
+                      "width": "75%",
+                    }
+                  }
+                >
+                  Other Costs
+                </TEXT>
+                <TEXT
+                  style={
+                    Object {
+                      "@media print": Object {
+                        "fontSize": 10,
+                      },
+                      "display": "table-cell",
+                      "fontSize": 14,
+                      "paddingBottom": 5,
+                      "paddingTop": 5,
+                      "textAlign": "right",
+                      "width": "25%",
+                    }
+                  }
+                >
+                   
+                </TEXT>
+              </VIEW>
+              <VIEW
+                style={
+                  Object {
+                    "backgroundColor": "#f1f5f6",
+                    "display": "table-row",
+                    "flexDirection": "row",
+                  }
+                }
+              >
+                <TEXT
+                  style={
+                    Object {
+                      "@media print": Object {
+                        "fontSize": 10,
+                      },
+                      "display": "table-cell",
+                      "fontSize": 14,
+                      "fontWeight": 600,
+                      "paddingBottom": 5,
+                      "paddingTop": 5,
+                      "width": "75%",
+                    }
+                  }
+                >
+                  Total Parts Cost
+                </TEXT>
+                <TEXT
+                  style={
+                    Object {
+                      "@media print": Object {
+                        "fontSize": 10,
+                      },
+                      "display": "table-cell",
+                      "fontSize": 14,
+                      "paddingBottom": 5,
+                      "paddingTop": 5,
+                      "textAlign": "right",
+                      "width": "25%",
+                    }
+                  }
+                >
+                   
+                </TEXT>
+              </VIEW>
+            </VIEW>
+          </VIEW>
+        </VIEW>
+      </VIEW>
+      <TEXT
+        style={
+          Object {
+            "@media print": Object {
+              "fontSize": 12,
+            },
+            "fontSize": 16,
+            "fontWeight": 700,
+            "marginBottom": 5,
+          }
+        }
+      >
+        Additional Cost Details
+      </TEXT>
+      <VIEW
+        style={
+          Object {
+            "display": "table",
+            "width": "100%",
+          }
+        }
+        withSeparator={true}
+      >
+        <VIEW
+          style={
+            Object {
+              "display": "table-row",
+              "flexDirection": "row",
+            }
+          }
+        >
+          <TEXT
+            style={
+              Object {
+                "@media print": Object {
+                  "fontSize": 11,
+                  "fontWeight": 600,
+                  "padding": 7,
+                  "width": "25%",
+                },
+                "backgroundColor": "#fb5447",
+                "borderColor": "#fff",
+                "borderRightWidth": 5,
+                "borderStyle": "solid",
+                "color": "#fff",
+                "display": "table-cell",
+                "fontSize": 14,
+                "fontWeight": 700,
+                "padding": 10,
+              }
+            }
+          >
+            Item
+          </TEXT>
+          <TEXT
+            style={
+              Object {
+                "@media print": Object {
+                  "fontSize": 11,
+                  "fontWeight": 600,
+                  "padding": 7,
+                  "width": "25%",
+                },
+                "backgroundColor": "#fb5447",
+                "borderColor": "#fff",
+                "borderRightWidth": 5,
+                "borderStyle": "solid",
+                "color": "#fff",
+                "display": "table-cell",
+                "fontSize": 14,
+                "fontWeight": 700,
+                "padding": 10,
+              }
+            }
+          >
+            Description
+          </TEXT>
+          <TEXT
+            style={
+              Object {
+                "@media print": Object {
+                  "fontSize": 11,
+                  "fontWeight": 600,
+                  "padding": 7,
+                  "width": "25%",
+                },
+                "backgroundColor": "#fb5447",
+                "borderColor": "#fff",
+                "borderRightWidth": 5,
+                "borderStyle": "solid",
+                "color": "#fff",
+                "display": "table-cell",
+                "fontSize": 14,
+                "fontWeight": 700,
+                "padding": 10,
+              }
+            }
+          >
+            Category
+          </TEXT>
+          <TEXT
+            style={
+              Object {
+                "@media print": Object {
+                  "fontSize": 11,
+                  "fontWeight": 600,
+                  "padding": 7,
+                  "width": "25%",
+                },
+                "backgroundColor": "#fb5447",
+                "borderColor": "#fff",
+                "borderRightWidth": 5,
+                "borderStyle": "solid",
+                "color": "#fff",
+                "display": "table-cell",
+                "fontSize": 14,
+                "fontWeight": 700,
+                "padding": 10,
+              }
+            }
+          >
+            Cost
+          </TEXT>
+        </VIEW>
+        <VIEW
+          style={
+            Object {
+              "display": "table-row-group",
+            }
+          }
+        />
+      </VIEW>
+      <VIEW
+        style={
+          Object {
+            "display": "flex",
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+          }
+        }
+      >
+        <VIEW
+          style={
+            Object {
+              "@media print": Object {
+                "width": "50%",
+              },
+              "display": "flex",
+              "flexDirection": "row",
+              "justifyContent": "flex-end",
+            }
+          }
+        >
+          <TEXT
+            style={
+              Object {
+                "@media print": Object {
+                  "fontSize": 10,
+                },
+                "display": "flex",
+                "fontSize": 14,
+                "fontWeight": 600,
+                "marginRight": 5,
+              }
+            }
+          >
+             
+          </TEXT>
+        </VIEW>
+        <VIEW
+          style={
+            Object {
+              "@media print": Object {
+                "width": "50%",
+              },
+              "display": "flex",
+              "flexDirection": "row",
+              "justifyContent": "flex-end",
+            }
+          }
+        >
+          <VIEW
+            style={
+              Object {
+                "@media print": Object {
+                  "marginTop": 5,
+                  "padding": 5,
+                  "textAlign": "left",
+                  "width": 300,
+                },
+                "backgroundColor": "#f1f5f6",
+                "display": "table",
+                "flexDirection": "row",
+                "justifyContent": "flex-end",
+                "marginTop": 10,
+                "padding": 10,
+                "textAlign": "right",
+                "width": 380,
+              }
+            }
+          >
+            <VIEW
+              style={
+                Object {
+                  "display": "table-row-group",
+                  "textAlign": "right",
+                }
+              }
+            >
+              <VIEW
+                style={
+                  Object {
+                    "display": "table-row",
+                    "flexDirection": "row",
+                  }
+                }
+              >
+                <TEXT
+                  style={
+                    Object {
+                      "@media print": Object {
+                        "fontSize": 10,
+                      },
+                      "display": "table-cell",
+                      "fontSize": 14,
+                      "fontWeight": 600,
+                      "paddingBottom": 5,
+                      "paddingTop": 5,
+                      "width": "75%",
+                    }
+                  }
+                >
+                  Subtotal
+                </TEXT>
+                <TEXT
+                  style={
+                    Object {
+                      "@media print": Object {
+                        "fontSize": 10,
+                      },
+                      "display": "table-cell",
+                      "fontSize": 14,
+                      "paddingBottom": 5,
+                      "paddingTop": 5,
+                      "textAlign": "right",
+                      "width": "25%",
+                    }
+                  }
+                >
+                   
+                </TEXT>
+              </VIEW>
+              <VIEW
+                style={
+                  Object {
+                    "display": "table-row",
+                    "flexDirection": "row",
+                  }
+                }
+              >
+                <TEXT
+                  style={
+                    Object {
+                      "@media print": Object {
+                        "fontSize": 10,
+                      },
+                      "display": "table-cell",
+                      "fontSize": 14,
+                      "fontWeight": 600,
+                      "paddingBottom": 5,
+                      "paddingTop": 5,
+                      "width": "75%",
+                    }
+                  }
+                >
+                  Other Costs
+                </TEXT>
+                <TEXT
+                  style={
+                    Object {
+                      "@media print": Object {
+                        "fontSize": 10,
+                      },
+                      "display": "table-cell",
+                      "fontSize": 14,
+                      "paddingBottom": 5,
+                      "paddingTop": 5,
+                      "textAlign": "right",
+                      "width": "25%",
+                    }
+                  }
+                >
+                   
+                </TEXT>
+              </VIEW>
+              <VIEW
+                style={
+                  Object {
+                    "display": "table-row",
+                    "flexDirection": "row",
+                  }
+                }
+              >
+                <TEXT
+                  style={
+                    Object {
+                      "@media print": Object {
+                        "fontSize": 10,
+                      },
+                      "display": "table-cell",
+                      "fontSize": 14,
+                      "fontWeight": 600,
+                      "paddingBottom": 5,
+                      "paddingTop": 5,
+                      "width": "75%",
+                    }
+                  }
+                >
+                   
+                </TEXT>
+                <TEXT
+                  style={
+                    Object {
+                      "@media print": Object {
+                        "fontSize": 10,
+                      },
+                      "display": "table-cell",
+                      "fontSize": 14,
+                      "paddingBottom": 5,
+                      "paddingTop": 5,
+                      "textAlign": "right",
+                      "width": "25%",
+                    }
+                  }
+                >
+                  -
+                </TEXT>
+              </VIEW>
+              <VIEW
+                style={
+                  Object {
+                    "display": "table-row",
+                    "flexDirection": "row",
+                  }
+                }
+              >
+                <TEXT
+                  style={
+                    Object {
+                      "@media print": Object {
+                        "fontSize": 10,
+                      },
+                      "display": "table-cell",
+                      "fontSize": 14,
+                      "fontWeight": 600,
+                      "paddingBottom": 5,
+                      "paddingTop": 5,
+                      "width": "75%",
+                    }
+                  }
+                >
+                  Paid
+                </TEXT>
+                <TEXT
+                  style={
+                    Object {
+                      "@media print": Object {
+                        "fontSize": 10,
+                      },
+                      "display": "table-cell",
+                      "fontSize": 14,
+                      "paddingBottom": 5,
+                      "paddingTop": 5,
+                      "textAlign": "right",
+                      "width": "25%",
+                    }
+                  }
+                >
+                   
+                </TEXT>
+              </VIEW>
+              <VIEW
+                style={
+                  Object {
+                    "backgroundColor": "#f1f5f6",
+                    "display": "table-row",
+                    "flexDirection": "row",
+                  }
+                }
+              >
+                <TEXT
+                  style={
+                    Object {
+                      "@media print": Object {
+                        "fontSize": 10,
+                      },
+                      "display": "table-cell",
+                      "fontSize": 14,
+                      "fontWeight": 600,
+                      "paddingBottom": 5,
+                      "paddingTop": 5,
+                      "width": "75%",
+                    }
+                  }
+                >
+                  Total Additional Cost
+                </TEXT>
+                <TEXT
+                  style={
+                    Object {
+                      "@media print": Object {
+                        "fontSize": 10,
+                      },
+                      "display": "table-cell",
+                      "fontSize": 14,
+                      "paddingBottom": 5,
+                      "paddingTop": 5,
+                      "textAlign": "right",
+                      "width": "25%",
+                    }
+                  }
+                >
+                   
+                </TEXT>
+              </VIEW>
+            </VIEW>
+          </VIEW>
+        </VIEW>
+      </VIEW>
+      <VIEW
+        style={
+          Object {
+            "@media print": Object {
+              "marginBottom": 20,
+              "marginTop": 10,
+            },
+            "display": "block",
+            "marginBottom": 20,
+            "marginTop": 10,
+          }
+        }
+      />
+      <VIEW
+        style={
+          Object {
+            "display": "flex",
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+          }
+        }
+      >
+        <VIEW
+          style={
+            Object {
+              "display": "flex",
+              "flexDirection": "column",
+            }
+          }
+        >
+          <VIEW
+            style={
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+              }
+            }
+          />
+          <VIEW
+            style={
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+              }
+            }
+          >
+            <TEXT
+              style={
+                Object {
+                  "@media print": Object {
+                    "fontSize": 10,
+                  },
+                  "display": "flex",
+                  "fontSize": 14,
+                  "fontWeight": 600,
+                  "marginRight": 5,
+                }
+              }
+            >
+              Signature
+            </TEXT>
+          </VIEW>
+          <VIEW
+            style={
+              Object {
+                "display": "flex",
+                "flexDirection": "row",
+              }
+            }
+          />
+        </VIEW>
+        <VIEW
+          style={
+            Object {
+              "@media print": Object {
+                "width": "50%",
+              },
+              "display": "flex",
+              "flexDirection": "row",
+              "justifyContent": "flex-end",
+            }
+          }
+        >
+          <VIEW
+            style={
+              Object {
+                "@media print": Object {
+                  "marginTop": 5,
+                  "padding": 5,
+                  "textAlign": "left",
+                  "width": 300,
+                },
+                "backgroundColor": "#f1f5f6",
+                "display": "table",
+                "flexDirection": "row",
+                "justifyContent": "flex-end",
+                "marginTop": 10,
+                "padding": 10,
+                "textAlign": "right",
+                "width": 380,
+              }
+            }
+          >
+            <VIEW
+              style={
+                Object {
+                  "display": "table-row-group",
+                  "textAlign": "right",
+                }
+              }
+            >
+              <VIEW
+                style={
+                  Object {
+                    "display": "table-row",
+                    "flexDirection": "row",
+                  }
+                }
+              >
+                <TEXT
+                  style={
+                    Object {
+                      "@media print": Object {
+                        "fontSize": 12,
+                      },
+                      "fontSize": 16,
+                      "fontWeight": 700,
+                      "marginBottom": 5,
+                    }
+                  }
+                >
+                  Invoice Summary
+                </TEXT>
+              </VIEW>
+              <VIEW
+                style={
+                  Object {
+                    "display": "table-row",
+                    "flexDirection": "row",
+                  }
+                }
+              >
+                <TEXT
+                  style={
+                    Object {
+                      "@media print": Object {
+                        "fontSize": 10,
+                      },
+                      "display": "table-cell",
+                      "fontSize": 14,
+                      "fontWeight": 600,
+                      "paddingBottom": 5,
+                      "paddingTop": 5,
+                      "width": "75%",
+                    }
+                  }
+                >
+                  Parts
+                </TEXT>
+                <TEXT
+                  style={
+                    Object {
+                      "@media print": Object {
+                        "fontSize": 10,
+                      },
+                      "display": "table-cell",
+                      "fontSize": 14,
+                      "paddingBottom": 5,
+                      "paddingTop": 5,
+                      "textAlign": "right",
+                      "width": "25%",
+                    }
+                  }
+                >
+                   
+                </TEXT>
+              </VIEW>
+              <VIEW
+                style={
+                  Object {
+                    "display": "table-row",
+                    "flexDirection": "row",
+                  }
+                }
+              >
+                <TEXT
+                  style={
+                    Object {
+                      "@media print": Object {
+                        "fontSize": 10,
+                      },
+                      "display": "table-cell",
+                      "fontSize": 14,
+                      "fontWeight": 600,
+                      "paddingBottom": 5,
+                      "paddingTop": 5,
+                      "width": "75%",
+                    }
+                  }
+                >
+                  Additional Costs
+                </TEXT>
+                <TEXT
+                  style={
+                    Object {
+                      "@media print": Object {
+                        "fontSize": 10,
+                      },
+                      "display": "table-cell",
+                      "fontSize": 14,
+                      "paddingBottom": 5,
+                      "paddingTop": 5,
+                      "textAlign": "right",
+                      "width": "25%",
+                    }
+                  }
+                >
+                   
+                </TEXT>
+              </VIEW>
+              <VIEW
+                style={
+                  Object {
+                    "display": "table-row",
+                    "flexDirection": "row",
+                  }
+                }
+              >
+                <TEXT
+                  style={
+                    Object {
+                      "@media print": Object {
+                        "fontSize": 10,
+                      },
+                      "display": "table-cell",
+                      "fontSize": 14,
+                      "fontWeight": 600,
+                      "paddingBottom": 5,
+                      "paddingTop": 5,
+                      "width": "75%",
+                    }
+                  }
+                >
+                  Total
+                </TEXT>
+                <TEXT
+                  style={
+                    Object {
+                      "@media print": Object {
+                        "fontSize": 10,
+                      },
+                      "display": "table-cell",
+                      "fontSize": 14,
+                      "paddingBottom": 5,
+                      "paddingTop": 5,
+                      "textAlign": "right",
+                      "width": "25%",
+                    }
+                  }
+                >
+                   
+                  NaN
+                </TEXT>
+              </VIEW>
+            </VIEW>
+          </VIEW>
+        </VIEW>
+      </VIEW>
+    </PAGE>
+  </DOCUMENT>
+</WorkOrderInvoicePDF>
+`;

@@ -1,0 +1,172 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<UpkPieChart /> should render correctly with full props and window's width 1036 1`] = `
+<UpkPieChart
+  colors={
+    Array [
+      "",
+    ]
+  }
+  data={
+    Array [
+      0,
+      -1,
+      2,
+      -3.5,
+      4.5,
+    ]
+  }
+>
+  <styled__ChartWrapper>
+    <div
+      className="styled__ChartWrapper-sc-18uhklm-0 dYFxmN"
+    >
+      <ResponsiveContainer
+        debounce={0}
+        height="100%"
+        width="100%"
+      >
+        <div
+          className="recharts-responsive-container"
+          style={
+            Object {
+              "height": "100%",
+              "maxHeight": undefined,
+              "minHeight": undefined,
+              "minWidth": undefined,
+              "width": "100%",
+            }
+          }
+        >
+          <PieChart
+            barCategoryGap="10%"
+            barGap={4}
+            cx="50%"
+            cy="50%"
+            endAngle={360}
+            height={0}
+            innerRadius={0}
+            layout="centric"
+            margin={
+              Object {
+                "bottom": 5,
+                "left": 5,
+                "right": 5,
+                "top": 5,
+              }
+            }
+            outerRadius="80%"
+            reverseStackOrder={false}
+            stackOffset="none"
+            startAngle={0}
+            width={0}
+          />
+          <ResizeDetector
+            handleHeight={true}
+            handleWidth={true}
+            onResize={[Function]}
+            refreshRate={1000}
+            resizableElementId=""
+            skipOnMount={false}
+          >
+            <div
+              style={
+                Object {
+                  "display": "none",
+                  "height": 0,
+                  "position": "absolute",
+                  "visibility": "hidden",
+                  "width": 0,
+                }
+              }
+            />
+          </ResizeDetector>
+        </div>
+      </ResponsiveContainer>
+    </div>
+  </styled__ChartWrapper>
+</UpkPieChart>
+`;
+
+exports[`<UpkPieChart /> should render correctly with mandatory props 1`] = `
+<UpkPieChart
+  data={
+    Array [
+      0,
+      -1,
+      2,
+      -3.5,
+      4.5,
+    ]
+  }
+>
+  <styled__ChartWrapper>
+    <div
+      className="styled__ChartWrapper-sc-18uhklm-0 dYFxmN"
+    >
+      <ResponsiveContainer
+        debounce={0}
+        height="100%"
+        width="100%"
+      >
+        <div
+          className="recharts-responsive-container"
+          style={
+            Object {
+              "height": "100%",
+              "maxHeight": undefined,
+              "minHeight": undefined,
+              "minWidth": undefined,
+              "width": "100%",
+            }
+          }
+        >
+          <PieChart
+            barCategoryGap="10%"
+            barGap={4}
+            cx="50%"
+            cy="50%"
+            endAngle={360}
+            height={0}
+            innerRadius={0}
+            layout="centric"
+            margin={
+              Object {
+                "bottom": 5,
+                "left": 5,
+                "right": 5,
+                "top": 5,
+              }
+            }
+            outerRadius="80%"
+            reverseStackOrder={false}
+            stackOffset="none"
+            startAngle={0}
+            width={0}
+          />
+          <ResizeDetector
+            handleHeight={true}
+            handleWidth={true}
+            onResize={[Function]}
+            refreshRate={1000}
+            resizableElementId=""
+            skipOnMount={false}
+          >
+            <div
+              style={
+                Object {
+                  "display": "none",
+                  "height": 0,
+                  "position": "absolute",
+                  "visibility": "hidden",
+                  "width": 0,
+                }
+              }
+            />
+          </ResizeDetector>
+        </div>
+      </ResponsiveContainer>
+    </div>
+  </styled__ChartWrapper>
+</UpkPieChart>
+`;

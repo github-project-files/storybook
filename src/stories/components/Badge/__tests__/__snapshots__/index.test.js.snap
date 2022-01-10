@@ -1,0 +1,95 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Badge /> should render correctly with blue theme 1`] = `
+<_default
+  theme="blue"
+>
+  <styled__Wrapper
+    theme="blue"
+  >
+    <div
+      className="styled__Wrapper-sc-10qy68h-0 FugZA"
+    />
+  </styled__Wrapper>
+</_default>
+`;
+
+exports[`<Badge /> should render correctly with gray theme 1`] = `
+<_default
+  theme="gray"
+>
+  <styled__Wrapper
+    theme="gray"
+  >
+    <div
+      className="styled__Wrapper-sc-10qy68h-0 hXniGS"
+    />
+  </styled__Wrapper>
+</_default>
+`;
+
+exports[`<Badge /> should render correctly with green theme 1`] = `
+<_default
+  theme="green"
+>
+  <styled__Wrapper
+    theme="green"
+  >
+    <div
+      className="styled__Wrapper-sc-10qy68h-0 jgFdPO"
+    />
+  </styled__Wrapper>
+</_default>
+`;
+
+exports[`<Badge /> should render correctly with none theme 1`] = `
+<_default
+  theme="none"
+>
+  <styled__Wrapper
+    theme="none"
+  >
+    <div
+      className="styled__Wrapper-sc-10qy68h-0 inGZnF"
+    />
+  </styled__Wrapper>
+</_default>
+`;
+
+exports[`<Badge /> should render correctly with red theme 1`] = `
+<_default
+  theme="red"
+>
+  <styled__Wrapper
+    theme="red"
+  >
+    <div
+      className="styled__Wrapper-sc-10qy68h-0 jVPPFe"
+    />
+  </styled__Wrapper>
+</_default>
+`;
+
+exports[`<Badge /> should render correctly with yellow theme 1`] = `
+<_default
+  theme="yellow"
+>
+  <styled__Wrapper
+    theme="yellow"
+  >
+    <div
+      className="styled__Wrapper-sc-10qy68h-0 nhnDB"
+    />
+  </styled__Wrapper>
+</_default>
+`;
+
+exports[`<Badge /> should render correctly without theme 1`] = `
+<_default>
+  <styled__Wrapper>
+    <div
+      className="styled__Wrapper-sc-10qy68h-0 jVPPFe"
+    />
+  </styled__Wrapper>
+</_default>
+`;

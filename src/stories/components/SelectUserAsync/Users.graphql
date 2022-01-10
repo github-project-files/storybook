@@ -1,0 +1,22 @@
+query Users (
+  $ids: [String!]
+  $limit: Int
+  $search: String
+  $accountType: [String!]
+  $offset: Int
+) {
+  users (
+    ids: $ids
+    limit: $limit
+    search: $search
+    accountType: $accountType
+    offset: $offset
+  ) {
+    id
+    firstName
+    lastName
+    email
+    legacyAccountType
+    avatar
+  }
+}

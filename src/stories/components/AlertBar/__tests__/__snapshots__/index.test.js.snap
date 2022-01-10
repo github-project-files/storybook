@@ -1,0 +1,219 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AlertBar /> should dismiss correctly with custom handler 1`] = `
+<AlertBar
+  dismissable={true}
+  onDismiss={[MockFunction]}
+>
+  <styled__OuterWrapper>
+    <div
+      className="styled__OuterWrapper-k9i32i-2 bcEHwy"
+    >
+      <styled__Wrapper
+        dismissable={true}
+      >
+        <div
+          className="styled__Wrapper-k9i32i-1 iIzOjY"
+        >
+          <Component />
+        </div>
+      </styled__Wrapper>
+      <styled__CloseIcon
+        onClick={[Function]}
+      >
+        <test-file-stub
+          className="styled__CloseIcon-k9i32i-0 gLLnlp"
+          onClick={[Function]}
+        />
+      </styled__CloseIcon>
+    </div>
+  </styled__OuterWrapper>
+</AlertBar>
+`;
+
+exports[`<AlertBar /> should dismiss correctly with custom handler 2`] = `
+<AlertBar
+  dismissable={true}
+  onDismiss={
+    [MockFunction] {
+      "calls": Array [
+        Array [],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    }
+  }
+/>
+`;
+
+exports[`<AlertBar /> should dismiss correctly without handler provided 1`] = `
+<AlertBar
+  dismissable={true}
+>
+  <styled__OuterWrapper>
+    <div
+      className="styled__OuterWrapper-k9i32i-2 bcEHwy"
+    >
+      <styled__Wrapper
+        dismissable={true}
+      >
+        <div
+          className="styled__Wrapper-k9i32i-1 iIzOjY"
+        >
+          <Component />
+        </div>
+      </styled__Wrapper>
+      <styled__CloseIcon
+        onClick={[Function]}
+      >
+        <test-file-stub
+          className="styled__CloseIcon-k9i32i-0 gLLnlp"
+          onClick={[Function]}
+        />
+      </styled__CloseIcon>
+    </div>
+  </styled__OuterWrapper>
+</AlertBar>
+`;
+
+exports[`<AlertBar /> should dismiss correctly without handler provided 2`] = `
+<AlertBar
+  dismissable={true}
+/>
+`;
+
+exports[`<AlertBar /> should render correctly with blue theme 1`] = `
+<AlertBar
+  theme="blue"
+>
+  <styled__OuterWrapper>
+    <div
+      className="styled__OuterWrapper-k9i32i-2 bcEHwy"
+    >
+      <styled__Wrapper
+        theme="blue"
+      >
+        <div
+          className="styled__Wrapper-k9i32i-1 fqzSBu"
+        >
+          <Component />
+        </div>
+      </styled__Wrapper>
+    </div>
+  </styled__OuterWrapper>
+</AlertBar>
+`;
+
+exports[`<AlertBar /> should render correctly with gray theme 1`] = `
+<AlertBar
+  theme="gray"
+>
+  <styled__OuterWrapper>
+    <div
+      className="styled__OuterWrapper-k9i32i-2 bcEHwy"
+    >
+      <styled__Wrapper
+        theme="gray"
+      >
+        <div
+          className="styled__Wrapper-k9i32i-1 WCxyr"
+        >
+          <Component />
+        </div>
+      </styled__Wrapper>
+    </div>
+  </styled__OuterWrapper>
+</AlertBar>
+`;
+
+exports[`<AlertBar /> should render correctly with green theme 1`] = `
+<AlertBar
+  theme="green"
+>
+  <styled__OuterWrapper>
+    <div
+      className="styled__OuterWrapper-k9i32i-2 bcEHwy"
+    >
+      <styled__Wrapper
+        theme="green"
+      >
+        <div
+          className="styled__Wrapper-k9i32i-1 hpMevR"
+        >
+          <Component />
+        </div>
+      </styled__Wrapper>
+    </div>
+  </styled__OuterWrapper>
+</AlertBar>
+`;
+
+exports[`<AlertBar /> should render correctly with none theme 1`] = `
+<AlertBar
+  theme="none"
+>
+  <styled__OuterWrapper>
+    <div
+      className="styled__OuterWrapper-k9i32i-2 bcEHwy"
+    >
+      <styled__Wrapper
+        theme="none"
+      >
+        <div
+          className="styled__Wrapper-k9i32i-1 hhZKEU"
+        >
+          <Component />
+        </div>
+      </styled__Wrapper>
+    </div>
+  </styled__OuterWrapper>
+</AlertBar>
+`;
+
+exports[`<AlertBar /> should render correctly with red theme 1`] = `
+<AlertBar
+  theme="red"
+>
+  <styled__OuterWrapper>
+    <div
+      className="styled__OuterWrapper-k9i32i-2 bcEHwy"
+    >
+      <styled__Wrapper
+        theme="red"
+      >
+        <div
+          className="styled__Wrapper-k9i32i-1 kInleY"
+        >
+          <Component />
+        </div>
+      </styled__Wrapper>
+    </div>
+  </styled__OuterWrapper>
+</AlertBar>
+`;
+
+exports[`<AlertBar /> should render correctly with yellow theme 1`] = `
+<AlertBar
+  theme="yellow"
+>
+  <styled__OuterWrapper>
+    <div
+      className="styled__OuterWrapper-k9i32i-2 bcEHwy"
+    >
+      <styled__Wrapper
+        theme="yellow"
+      >
+        <div
+          className="styled__Wrapper-k9i32i-1 clXDMy"
+        >
+          <Component />
+        </div>
+      </styled__Wrapper>
+    </div>
+  </styled__OuterWrapper>
+</AlertBar>
+`;

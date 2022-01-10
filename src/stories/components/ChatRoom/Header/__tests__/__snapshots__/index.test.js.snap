@@ -1,0 +1,344 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ChatRoomHeader /> should render correctly with full props 1`] = `
+<_default
+  channel={
+    Object {
+      "type": "DIRECT_MESSAGE",
+      "users": Array [
+        Object {
+          "firstName": "Name",
+          "id": 0,
+          "lastName": "Last",
+        },
+        Object {
+          "firstName": "Name",
+          "id": 1,
+          "lastName": "Last",
+        },
+        Object {
+          "firstName": "Name",
+          "id": 2,
+          "lastName": "Last",
+        },
+      ],
+    }
+  }
+  history={
+    Object {
+      "push": [MockFunction],
+    }
+  }
+  onOpenTeamPanel={[MockFunction]}
+  session={
+    Object {
+      "id": 1,
+    }
+  }
+>
+  <styled__Wrapper>
+    <div
+      className="styled__Wrapper-sc-6yhjoj-0 hvqzLc"
+    >
+      <styled__BackIcon
+        onClick={[Function]}
+      >
+        <test-file-stub
+          className="styled__BackIcon-sc-6yhjoj-3 ftzSuc"
+          onClick={[Function]}
+        />
+      </styled__BackIcon>
+      <styled__Avatar
+        src="/static/web/assets/defaultAvatar.png"
+      >
+        <img
+          className="styled__Avatar-sc-1wjrk8z-1 bvoqYD"
+          src="/static/web/assets/defaultAvatar.png"
+        />
+      </styled__Avatar>
+      <styled__Details>
+        <div
+          className="styled__Details-sc-6yhjoj-1 emaCwN"
+        >
+          <label>
+            Name Last
+          </label>
+          <label />
+        </div>
+      </styled__Details>
+      <styled__Options>
+        <div
+          className="styled__Options-sc-6yhjoj-2 cqAAHz"
+        >
+          <_default
+            value="Team"
+          >
+            <styled__Wrapper
+              data-tip="Team"
+              value="Team"
+            >
+              <div
+                className="styled__Wrapper-funpqb-0 cznzQQ"
+                data-tip="Team"
+                value="Team"
+              >
+                <span
+                  onClick={[MockFunction]}
+                >
+                  <test-file-stub />
+                </span>
+                <styled__TooltipWrapper
+                  display="true"
+                >
+                  <div
+                    className="styled__TooltipWrapper-funpqb-1 gQtIVd"
+                    display="true"
+                  >
+                    <ReactTooltip
+                      clickable={false}
+                      delayShow={300}
+                      effect="solid"
+                      getContent={[Function]}
+                      html={true}
+                      insecure={true}
+                      multiline={true}
+                      place="top"
+                      resizeHide={true}
+                      type="dark"
+                      wrapper="div"
+                    >
+                      <div
+                        className="__react_component_tooltip place-top type-dark"
+                        data-id="tooltip"
+                      >
+                        null
+                      </div>
+                    </ReactTooltip>
+                  </div>
+                </styled__TooltipWrapper>
+              </div>
+            </styled__Wrapper>
+          </_default>
+        </div>
+      </styled__Options>
+    </div>
+  </styled__Wrapper>
+</_default>
+`;
+
+exports[`<ChatRoomHeader /> should render correctly with full props and unnamed users 1`] = `
+<_default
+  channel={
+    Object {
+      "type": "DIRECT_MESSAGE",
+      "users": Array [
+        Object {
+          "id": 0,
+        },
+        Object {
+          "id": 1,
+        },
+        Object {
+          "id": 2,
+        },
+      ],
+    }
+  }
+  history={
+    Object {
+      "push": [MockFunction],
+    }
+  }
+  onOpenTeamPanel={[MockFunction]}
+  session={
+    Object {
+      "id": 1,
+    }
+  }
+>
+  <styled__Wrapper>
+    <div
+      className="styled__Wrapper-sc-6yhjoj-0 hvqzLc"
+    >
+      <styled__BackIcon
+        onClick={[Function]}
+      >
+        <test-file-stub
+          className="styled__BackIcon-sc-6yhjoj-3 ftzSuc"
+          onClick={[Function]}
+        />
+      </styled__BackIcon>
+      <styled__Avatar
+        src="/static/web/assets/defaultAvatar.png"
+      >
+        <img
+          className="styled__Avatar-sc-1wjrk8z-1 bvoqYD"
+          src="/static/web/assets/defaultAvatar.png"
+        />
+      </styled__Avatar>
+      <styled__Details>
+        <div
+          className="styled__Details-sc-6yhjoj-1 emaCwN"
+        >
+          <label />
+          <label />
+        </div>
+      </styled__Details>
+      <styled__Options>
+        <div
+          className="styled__Options-sc-6yhjoj-2 cqAAHz"
+        >
+          <_default
+            value="Team"
+          >
+            <styled__Wrapper
+              data-tip="Team"
+              value="Team"
+            >
+              <div
+                className="styled__Wrapper-funpqb-0 cznzQQ"
+                data-tip="Team"
+                value="Team"
+              >
+                <span
+                  onClick={[MockFunction]}
+                >
+                  <test-file-stub />
+                </span>
+                <styled__TooltipWrapper
+                  display="true"
+                >
+                  <div
+                    className="styled__TooltipWrapper-funpqb-1 gQtIVd"
+                    display="true"
+                  >
+                    <ReactTooltip
+                      clickable={false}
+                      delayShow={300}
+                      effect="solid"
+                      getContent={[Function]}
+                      html={true}
+                      insecure={true}
+                      multiline={true}
+                      place="top"
+                      resizeHide={true}
+                      type="dark"
+                      wrapper="div"
+                    >
+                      <div
+                        className="__react_component_tooltip place-top type-dark"
+                        data-id="tooltip"
+                      >
+                        null
+                      </div>
+                    </ReactTooltip>
+                  </div>
+                </styled__TooltipWrapper>
+              </div>
+            </styled__Wrapper>
+          </_default>
+        </div>
+      </styled__Options>
+    </div>
+  </styled__Wrapper>
+</_default>
+`;
+
+exports[`<ChatRoomHeader /> should render correctly with mandatory props 1`] = `
+<_default
+  history={
+    Object {
+      "push": [MockFunction],
+    }
+  }
+  onOpenTeamPanel={[MockFunction]}
+  session={
+    Object {
+      "id": 1,
+    }
+  }
+>
+  <styled__Wrapper>
+    <div
+      className="styled__Wrapper-sc-6yhjoj-0 hvqzLc"
+    >
+      <styled__BackIcon
+        onClick={[Function]}
+      >
+        <test-file-stub
+          className="styled__BackIcon-sc-6yhjoj-3 ftzSuc"
+          onClick={[Function]}
+        />
+      </styled__BackIcon>
+      <styled__Participants>
+        <div
+          className="styled__Participants-sc-1wjrk8z-2 koGZMK"
+        />
+      </styled__Participants>
+      <styled__Details>
+        <div
+          className="styled__Details-sc-6yhjoj-1 emaCwN"
+        >
+          <label />
+          <label />
+        </div>
+      </styled__Details>
+      <styled__Options>
+        <div
+          className="styled__Options-sc-6yhjoj-2 cqAAHz"
+        >
+          <_default
+            value="Team"
+          >
+            <styled__Wrapper
+              data-tip="Team"
+              value="Team"
+            >
+              <div
+                className="styled__Wrapper-funpqb-0 cznzQQ"
+                data-tip="Team"
+                value="Team"
+              >
+                <span
+                  onClick={[MockFunction]}
+                >
+                  <test-file-stub />
+                </span>
+                <styled__TooltipWrapper
+                  display="true"
+                >
+                  <div
+                    className="styled__TooltipWrapper-funpqb-1 gQtIVd"
+                    display="true"
+                  >
+                    <ReactTooltip
+                      clickable={false}
+                      delayShow={300}
+                      effect="solid"
+                      getContent={[Function]}
+                      html={true}
+                      insecure={true}
+                      multiline={true}
+                      place="top"
+                      resizeHide={true}
+                      type="dark"
+                      wrapper="div"
+                    >
+                      <div
+                        className="__react_component_tooltip place-top type-dark"
+                        data-id="tooltip"
+                      >
+                        null
+                      </div>
+                    </ReactTooltip>
+                  </div>
+                </styled__TooltipWrapper>
+              </div>
+            </styled__Wrapper>
+          </_default>
+        </div>
+      </styled__Options>
+    </div>
+  </styled__Wrapper>
+</_default>
+`;

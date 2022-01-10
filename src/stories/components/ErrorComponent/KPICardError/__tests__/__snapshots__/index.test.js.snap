@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PageError /> should render correctly 1`] = `
+<PageError>
+  <styled__WrapperDiv>
+    <div
+      className="styled__WrapperDiv-sc-14gh3ct-1 hopgdJ"
+    >
+      <styled__IconWrapper>
+        <div
+          className="styled__IconWrapper-sc-14gh3ct-2 bbTULD"
+        >
+          <styled__AlertIcon>
+            <test-file-stub
+              className="styled__AlertIcon-sc-14gh3ct-0 hNhLfk"
+            />
+          </styled__AlertIcon>
+        </div>
+      </styled__IconWrapper>
+      <styled__ContentWrapper>
+        <div
+          className="styled__ContentWrapper-sc-14gh3ct-3 eiOOLz"
+        >
+          <styled__ErrorMessage>
+            <p
+              className="styled__ErrorMessage-sc-14gh3ct-4 inypfB"
+            >
+              Something went wrong while loading Dashboard data
+            </p>
+          </styled__ErrorMessage>
+          <styled__ErrorHelpMessage>
+            <p
+              className="styled__ErrorHelpMessage-sc-14gh3ct-5 cCoUjH"
+            >
+              Please try again in sometime
+            </p>
+          </styled__ErrorHelpMessage>
+        </div>
+      </styled__ContentWrapper>
+    </div>
+  </styled__WrapperDiv>
+</PageError>
+`;

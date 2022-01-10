@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ButtonOutline /> should render correctly with full props 1`] = `
+<_default
+  pill={true}
+  theme="blue"
+>
+  <styled__Wrapper
+    pill={true}
+    theme="blue"
+  >
+    <_default
+      className="styled__Wrapper-rjpgx3-0 gsTijM"
+      pill={true}
+      theme="blue"
+    >
+      <styled__Wrapper
+        className="styled__Wrapper-rjpgx3-0 gsTijM"
+        onClick={[Function]}
+        pill={true}
+        theme="blue"
+        type="button"
+      >
+        <button
+          className="styled__Wrapper-rjpgx3-0 gsTijM styled__Wrapper-sc-6m8pxr-0 dJSzjo"
+          onClick={[Function]}
+          type="button"
+        >
+          <Child>
+            <p>
+              Child
+            </p>
+          </Child>
+        </button>
+      </styled__Wrapper>
+    </_default>
+  </styled__Wrapper>
+</_default>
+`;
+
+exports[`<ButtonOutline /> should render correctly without props 1`] = `
+<_default>
+  <styled__Wrapper>
+    <_default
+      className="styled__Wrapper-rjpgx3-0 zwdkb"
+    >
+      <styled__Wrapper
+        className="styled__Wrapper-rjpgx3-0 zwdkb"
+        onClick={[Function]}
+        type="button"
+      >
+        <button
+          className="styled__Wrapper-rjpgx3-0 zwdkb styled__Wrapper-sc-6m8pxr-0 hqeYZD"
+          onClick={[Function]}
+          type="button"
+        >
+          <Child>
+            <p>
+              Child
+            </p>
+          </Child>
+        </button>
+      </styled__Wrapper>
+    </_default>
+  </styled__Wrapper>
+</_default>
+`;

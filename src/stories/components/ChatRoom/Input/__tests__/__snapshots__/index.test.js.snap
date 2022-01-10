@@ -1,0 +1,383 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Input /> should render correctly with deleted image 1`] = `
+<ChatRoomInput
+  images={
+    Array [
+      Object {
+        "_id": 0,
+        "dataUrl": "",
+        "deleted": true,
+        "file": "",
+      },
+      Object {
+        "_id": 1,
+        "dataUrl": "",
+        "deleted": false,
+        "file": "",
+      },
+    ]
+  }
+  imagesUploading={true}
+  message="Message"
+  onChange={[MockFunction]}
+  onImagesMutate={[MockFunction]}
+  onSubmit={[MockFunction]}
+  t={
+    [MockFunction] {
+      "calls": Array [
+        Array [
+          "pages.messages.writeMessagePlaceholder",
+        ],
+        Array [
+          "pages.messages.writeMessagePlaceholder",
+        ],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    }
+  }
+>
+  <form>
+    <styled__Wrapper>
+      <div
+        className="styled__Wrapper-pnin0k-0 gnifIB"
+      >
+        <styled__FileButton>
+          <div
+            className="styled__FileButton-pnin0k-2 ksWiUG"
+          >
+            <styled__PaperclipIcon>
+              <test-file-stub
+                className="styled__PaperclipIcon-pnin0k-3 cVimtJ"
+              />
+            </styled__PaperclipIcon>
+            <input
+              accept="image/*"
+              multiple={true}
+              onChange={[Function]}
+              type="file"
+              value=""
+            />
+          </div>
+        </styled__FileButton>
+        <styled__TextArea
+          autoFocus={true}
+          innerRef={[Function]}
+          onChange={[Function]}
+          onKeyDown={[Function]}
+          type="text"
+          value="Message"
+        >
+          <textarea
+            autoFocus={true}
+            className="styled__TextArea-pnin0k-1 eLkOrk"
+            onChange={[Function]}
+            onKeyDown={[Function]}
+            type="text"
+            value="Message"
+          />
+        </styled__TextArea>
+        <styled__EmojiIconInactive
+          onClick={[Function]}
+        >
+          <test-file-stub
+            className="styled__EmojiIconInactive-pnin0k-8 fXbUEp"
+            onClick={[Function]}
+          />
+        </styled__EmojiIconInactive>
+      </div>
+    </styled__Wrapper>
+    <div>
+      <styled__ThumbnailContainer>
+        <div
+          className="styled__ThumbnailContainer-pnin0k-4 dtGwbz"
+        >
+          <styled__ThumbnailPreview
+            key="1"
+          >
+            <div
+              className="styled__ThumbnailPreview-pnin0k-5 heydDS"
+            >
+              <span
+                className="thumbnail"
+                style={
+                  Object {
+                    "backgroundImage": "url()",
+                  }
+                }
+              />
+              <span
+                className="delete-image"
+                onClick={[Function]}
+              >
+                ×
+              </span>
+              <styled__UploadingImage>
+                <div
+                  className="styled__UploadingImage-pnin0k-10 jJvdND"
+                >
+                  <div />
+                  <div />
+                  <div />
+                </div>
+              </styled__UploadingImage>
+            </div>
+          </styled__ThumbnailPreview>
+        </div>
+      </styled__ThumbnailContainer>
+    </div>
+  </form>
+</ChatRoomInput>
+`;
+
+exports[`<Input /> should render correctly with mandatory props 1`] = `
+<ChatRoomInput
+  images={
+    Array [
+      Object {},
+    ]
+  }
+  imagesUploading={true}
+  message="Message"
+  onChange={[MockFunction]}
+  onImagesMutate={[MockFunction]}
+  onSubmit={[MockFunction]}
+  t={
+    [MockFunction] {
+      "calls": Array [
+        Array [
+          "pages.messages.writeMessagePlaceholder",
+        ],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    }
+  }
+>
+  <form>
+    <styled__Wrapper>
+      <div
+        className="styled__Wrapper-pnin0k-0 gnifIB"
+      >
+        <styled__FileButton>
+          <div
+            className="styled__FileButton-pnin0k-2 ksWiUG"
+          >
+            <styled__PaperclipIcon>
+              <test-file-stub
+                className="styled__PaperclipIcon-pnin0k-3 cVimtJ"
+              />
+            </styled__PaperclipIcon>
+            <input
+              accept="image/*"
+              multiple={true}
+              onChange={[Function]}
+              type="file"
+              value=""
+            />
+          </div>
+        </styled__FileButton>
+        <styled__TextArea
+          autoFocus={true}
+          innerRef={[Function]}
+          onChange={[Function]}
+          onKeyDown={[Function]}
+          type="text"
+          value="Message"
+        >
+          <textarea
+            autoFocus={true}
+            className="styled__TextArea-pnin0k-1 eLkOrk"
+            onChange={[Function]}
+            onKeyDown={[Function]}
+            type="text"
+            value="Message"
+          />
+        </styled__TextArea>
+        <styled__EmojiIconInactive
+          onClick={[Function]}
+        >
+          <test-file-stub
+            className="styled__EmojiIconInactive-pnin0k-8 fXbUEp"
+            onClick={[Function]}
+          />
+        </styled__EmojiIconInactive>
+      </div>
+    </styled__Wrapper>
+    <div>
+      <styled__ThumbnailContainer>
+        <div
+          className="styled__ThumbnailContainer-pnin0k-4 dtGwbz"
+        >
+          <styled__ThumbnailPreview>
+            <div
+              className="styled__ThumbnailPreview-pnin0k-5 heydDS"
+            >
+              <span
+                className="thumbnail"
+                style={
+                  Object {
+                    "backgroundImage": "url(undefined)",
+                  }
+                }
+              />
+              <span
+                className="delete-image"
+                onClick={[Function]}
+              >
+                ×
+              </span>
+              <styled__UploadingImage>
+                <div
+                  className="styled__UploadingImage-pnin0k-10 jJvdND"
+                >
+                  <div />
+                  <div />
+                  <div />
+                </div>
+              </styled__UploadingImage>
+            </div>
+          </styled__ThumbnailPreview>
+        </div>
+      </styled__ThumbnailContainer>
+    </div>
+  </form>
+</ChatRoomInput>
+`;
+
+exports[`<Input /> should render correctly without images uploading 1`] = `
+<ChatRoomInput
+  images={
+    Array [
+      Object {},
+    ]
+  }
+  imagesUploading={false}
+  message="Message"
+  onChange={[MockFunction]}
+  onImagesMutate={[MockFunction]}
+  onSubmit={[MockFunction]}
+  t={
+    [MockFunction] {
+      "calls": Array [
+        Array [
+          "pages.messages.writeMessagePlaceholder",
+        ],
+        Array [
+          "pages.messages.writeMessagePlaceholder",
+        ],
+        Array [
+          "pages.messages.writeMessagePlaceholder",
+        ],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    }
+  }
+>
+  <form>
+    <styled__Wrapper>
+      <div
+        className="styled__Wrapper-pnin0k-0 gnifIB"
+      >
+        <styled__FileButton>
+          <div
+            className="styled__FileButton-pnin0k-2 ksWiUG"
+          >
+            <styled__PaperclipIcon>
+              <test-file-stub
+                className="styled__PaperclipIcon-pnin0k-3 cVimtJ"
+              />
+            </styled__PaperclipIcon>
+            <input
+              accept="image/*"
+              multiple={true}
+              onChange={[Function]}
+              type="file"
+              value=""
+            />
+          </div>
+        </styled__FileButton>
+        <styled__TextArea
+          autoFocus={true}
+          innerRef={[Function]}
+          onChange={[Function]}
+          onKeyDown={[Function]}
+          type="text"
+          value="Message"
+        >
+          <textarea
+            autoFocus={true}
+            className="styled__TextArea-pnin0k-1 eLkOrk"
+            onChange={[Function]}
+            onKeyDown={[Function]}
+            type="text"
+            value="Message"
+          />
+        </styled__TextArea>
+        <styled__EmojiIconInactive
+          onClick={[Function]}
+        >
+          <test-file-stub
+            className="styled__EmojiIconInactive-pnin0k-8 fXbUEp"
+            onClick={[Function]}
+          />
+        </styled__EmojiIconInactive>
+      </div>
+    </styled__Wrapper>
+    <div>
+      <styled__ThumbnailContainer>
+        <div
+          className="styled__ThumbnailContainer-pnin0k-4 dtGwbz"
+        >
+          <styled__ThumbnailPreview>
+            <div
+              className="styled__ThumbnailPreview-pnin0k-5 heydDS"
+            >
+              <span
+                className="thumbnail"
+                style={
+                  Object {
+                    "backgroundImage": "url(undefined)",
+                  }
+                }
+              />
+              <span
+                className="delete-image"
+                onClick={[Function]}
+              >
+                ×
+              </span>
+            </div>
+          </styled__ThumbnailPreview>
+        </div>
+      </styled__ThumbnailContainer>
+    </div>
+  </form>
+</ChatRoomInput>
+`;

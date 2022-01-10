@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SidebarTabError /> should render correctly with mandatory props 1`] = `
+<SidebarTabError
+  name="Name"
+>
+  <styled__WrapperDiv>
+    <div
+      className="styled__WrapperDiv-rohqee-1 kxbauS"
+    >
+      <styled__IconWrapper>
+        <div
+          className="styled__IconWrapper-rohqee-2 jYAjwy"
+        >
+          <styled__AlertIcon>
+            <test-file-stub
+              className="styled__AlertIcon-rohqee-0 gJtqej"
+            />
+          </styled__AlertIcon>
+        </div>
+      </styled__IconWrapper>
+      <styled__ContentWrapper>
+        <div
+          className="styled__ContentWrapper-rohqee-3 iyivtR"
+        >
+          <styled__ErrorMessage>
+            <p
+              className="styled__ErrorMessage-rohqee-4 dqdIaI"
+            >
+              Something went wrong while loading
+               Name
+            </p>
+          </styled__ErrorMessage>
+          <styled__ErrorHelpMessage>
+            <p
+              className="styled__ErrorHelpMessage-rohqee-5 gUFSkq"
+            >
+              Please try again in sometime
+            </p>
+          </styled__ErrorHelpMessage>
+        </div>
+      </styled__ContentWrapper>
+    </div>
+  </styled__WrapperDiv>
+</SidebarTabError>
+`;
