@@ -1,7 +1,0 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
-
-exports[`<FormLabel /> snapshot 1`] = `
-<styled__Wrapper>
-  <styled__Label />
-</styled__Wrapper>
-`;

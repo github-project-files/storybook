@@ -1,0 +1,44 @@
+{
+  "extends": [
+    "@zendeskgarden",
+    "@zendeskgarden/eslint-config/plugins/notice",
+    "@zendeskgarden/eslint-config/plugins/react",
+    "prettier"
+  ],
+  "rules": {
+    "sort-imports": "off",
+    "react/no-array-index-key": "off",
+    "react/no-set-state": "error"
+  },
+  "overrides": [
+    {
+      "files": ["*.ts", "*.tsx"],
+      "extends": [
+        "@zendeskgarden/eslint-config/plugins/typescript",
+        "prettier"
+      ],
+      "rules": {
+        "@typescript-eslint/explicit-function-return-type": "off",
+        "@typescript-eslint/explicit-module-boundary-types": "off",
+        "@typescript-eslint/no-explicit-any": "off",
+        "react/prop-types": "off"
+      }
+    },
+    {
+      "files": ["packages/**/*.{js,ts,tsx}"],
+      "excludedFiles": ["*.spec.*", "packages/*/demo/**/*"],
+      "plugins": ["garden-local"],
+      "rules": {
+        "garden-local/require-default-theme": "error"
+      }
+    },
+    {
+      "files": ["*.spec.*"],
+      "extends": "@zendeskgarden/eslint-config/plugins/jest",
+      "rules": {
+        "no-console": "off",
+        "react/button-has-type": "off"
+      }
+    }
+  ]
+}

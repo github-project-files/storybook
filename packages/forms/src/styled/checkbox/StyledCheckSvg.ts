@@ -1,0 +1,37 @@
+/**
+ * Copyright Zendesk, Inc.
+ *
+ * Use of this source code is governed under the Apache License, Version 2.0
+ * found at http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+import styled from 'styled-components';
+import { retrieveComponentStyles, DEFAULT_THEME } from '@zendeskgarden/react-theming';
+import { StyledCheckInput } from './StyledCheckInput';
+import { StyledCheckLabel } from './StyledCheckLabel';
+import { CheckIcon } from './check-sm';
+
+const COMPONENT_ID = 'forms.check_svg';
+
+export const StyledCheckSvg = styled(CheckIcon).attrs({
+  'data-garden-id': COMPONENT_ID,
+  'data-garden-version': PACKAGE_VERSION
+})`
+  transition: opacity 0.25 ease-in-out;
+  opacity: 0;
+  pointer-events: none;
+
+  ${StyledCheckInput}:checked ~ ${StyledCheckLabel} > & {
+    opacity: 1;
+  }
+
+  ${StyledCheckInput}:indeterminate ~ ${StyledCheckLabel} > & {
+    opacity: 0;
+  }
+
+  ${props => retrieveComponentStyles(COMPONENT_ID, props)};
+`;
+
+StyledCheckSvg.defaultProps = {
+  theme: DEFAULT_THEME
+};
