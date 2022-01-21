@@ -7,17 +7,17 @@
 
 import React from 'react';
 import { Story } from '@storybook/react';
-import Icon from '@zendeskgarden/svg-icons/src/16/box-3d-stroke.svg';
-import Icon01 from '@zendeskgarden/svg-icons/src/16/chevron-box-stroke.svg';
-import Icon02 from '@zendeskgarden/svg-icons/src/16/check-box-double-stroke.svg';
-import Icon03 from '@zendeskgarden/svg-icons/src/16/text-stroke.svg';
-import Icon04 from '@zendeskgarden/svg-icons/src/16/multiline-stroke.svg';
-import Icon05 from '@zendeskgarden/svg-icons/src/16/check-lg-stroke.svg';
-import Icon06 from '@zendeskgarden/svg-icons/src/16/number-stroke.svg';
-import Icon07 from '@zendeskgarden/svg-icons/src/16/decimal-stroke.svg';
-import Icon08 from '@zendeskgarden/svg-icons/src/16/calendar-stroke.svg';
-import Icon09 from '@zendeskgarden/svg-icons/src/16/credit-card-stroke.svg';
-import Icon10 from '@zendeskgarden/svg-icons/src/16/asterisk-stroke.svg';
+import {Icon} from './box3dstroke';
+import {Icon01} from './chevronbox';
+import {Icon02} from './checkbox';
+import {Icon03} from './textstroke';
+import {Icon04} from './multiline';
+import {Icon05} from './checkboxlg';
+import {Icon06} from './numberstroke';
+import {Icon07} from './decimalstroke';
+import {Icon08} from './calenderstroke';
+import {Icon09} from './creditcardstroke';
+import {Icon10} from './asteriskstroke';
 import { ITilesProps, Tiles } from '@zendeskgarden/react-forms';
 import { ITile } from './types';
 import { Col, Grid, Row } from '@zendeskgarden/react-grid';

@@ -1,0 +1,15 @@
+# General ignores
+node_modules
+*.log
+.changelog
+.vscode
+.netlify
+.env
+
+# Package specific
+packages/**/dist
+package-lock.json
+
+# Demo specific
+demo/**/*
+utils/storybook/coverage
