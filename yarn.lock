@@ -12065,6 +12065,11 @@
     "language-tags" "^1.0.5"
     "minimatch" "^3.0.4"
 
+"eslint-plugin-local@^1.0.0":
+  "integrity" "sha1-8MBwEclf7EK/tNkJ3rtuoDXzsqQ="
+  "resolved" "https://registry.npmjs.org/eslint-plugin-local/-/eslint-plugin-local-1.0.0.tgz"
+  "version" "1.0.0"
+
 "eslint-plugin-markdown@^2.0.0":
   "integrity" "sha512-FgWp4iyYvTFxPwfbxofTvXxgzPsDuSKHQy2S+a8Ve6savbujey+lgrFFbXQA0HPygISpRYWYBjooPzhYSF81iA=="
   "resolved" "https://registry.npmjs.org/eslint-plugin-markdown/-/eslint-plugin-markdown-2.2.1.tgz"
